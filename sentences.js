@@ -202,6 +202,131 @@ The client signed off / on the final design / this morning. || 顧客は承認�
 Let's keep it short, / since everyone has / a busy afternoon. || 手短にしましょう / なぜなら皆さんあるので / 忙しい午後が || 皆さん午後はお忙しいので、手短にいきましょう。 || keep it short：手短にする
 `
   },
+  {
+    level: "phrase-basic2",
+    text: `
+Can you fill out / this form, / please? || 記入してもらえますか / この用紙に / お願いします || この用紙に記入してもらえますか？ || fill out：（用紙に）記入する。イギリスでは fill in もよく使う
+I need to drop off / my kids / at school / first. || 私は送って降ろす必要があります / 子どもたちを / 学校で / まず || まず子どもたちを学校に送っていかないと。 || drop 人 off：（車などで）人を送って降ろす（迎えに行くのは pick up）
+Could you look after / my cat / while I'm away? || 世話をしてもらえますか / 私の猫の / 私がいない間 || 留守の間、猫の世話をしてもらえる？ || look after 〜：〜の世話をする・面倒を見る
+I'm looking forward to / seeing you / next week. || 私は楽しみにしています / あなたに会うことを / 来週 || 来週会えるのを楽しみにしてるよ。 || look forward to -ing：〜するのを楽しみにする（to の後は -ing の形）
+Let's eat out / tonight. / I don't feel like cooking. || 外食しよう / 今夜は / 私は料理する気分じゃない || 今夜は外で食べよう。料理する気分じゃないんだ。 || eat out：外食する／feel like -ing：〜したい気分だ
+I don't know that word. / I'll look it up / online. || その単語は知りません / 私はそれを調べます / ネットで || その単語知らないな。ネットで調べてみるね。 || look 〜 up：（辞書やネットで）〜を調べる
+I'm sorry / to keep you waiting. || ごめんなさい / あなたを待たせて || お待たせしてごめんなさい。 || keep 人 waiting：人を待たせる
+Can you give me a hand / with these boxes? || 手を貸してくれる？ / この箱のことで || この箱、ちょっと手伝ってくれる？ || give 人 a hand：人に手を貸す・手伝う
+Don't worry. / I've got this. || 心配しないで / これは私に任せて || 心配しないで、私に任せて。 || I've got this.：任せて・自分でできる（自信を見せる決まり文句）
+I'm full. / I can't eat / another bite. || おなかいっぱい / 食べられない / もう一口も || おなかいっぱい。もう一口も食べられない。 || I'm full.：おなかいっぱい／another bite：もう一口
+Watch out! / There's a car / coming. || 気をつけて！ / 車が / 来ているよ || 危ない！車が来てるよ。 || Watch out!：危ない・気をつけて（とっさの注意）
+Let me show you around / the neighborhood. || あなたを案内させて / 近所を || 近所を案内するよ。 || show 人 around：人をあちこち案内する
+Could you speak up / a little? / I can't hear you. || 大きな声で話してもらえますか / 少し / 聞こえません || もう少し大きな声で話してもらえますか？聞こえなくて。 || speak up：（もっと）大きな声で話す
+Come on in. / Make yourself at home. || どうぞ入って / 自分の家のようにくつろいで || どうぞ入って、くつろいでね。 || Make yourself at home.：くつろいでね（家に招いたときの定番）
+I'm not feeling well, / so I'll stay home / today. || 私は体調がよくありません / だから家にいます / 今日は || 体調がよくないから、今日は家にいるね。 || not feel well：体調がよくない（I'm sick. よりやわらかい言い方）
+I can't make it / to the party / on Saturday. || 私は行けません / パーティーに / 土曜日の || 土曜日のパーティー、行けなくなっちゃった。 || make it：（予定に）都合をつけて行ける・間に合う
+Turn left / at the next corner, / and it's on your right. || 左に曲がって / 次の角で / そうすればそれは右手にあります || 次の角を左に曲がると、右手にあります。 || on your right：（あなたから見て）右手に。道案内の定番
+Excuse me, / is this seat taken? || すみません / この席はふさがっていますか？ || すみません、この席空いてますか？ || Is this seat taken?：この席は空いていますか（空席かどうかを聞く定番）
+Cheer up! / Tomorrow is / another day. || 元気出して！ / 明日は / また別の日だよ || 元気出して！明日があるさ。 || Cheer up!：元気出して／Tomorrow is another day.：明日があるさ
+I'm good, / thanks. / I already ate. || 私は大丈夫です / ありがとう / 私はもう食べました || 大丈夫、ありがとう。もう食べたから。 || I'm good.：（勧められて）大丈夫です・結構です（やんわり断るときにもよく使う）
+`
+  },
+  {
+    level: "phrase-daily2",
+    text: `
+I'm starving. / When's dinner? || 私は腹ぺこです / 夕食はいつ？ || おなかペコペコ。晩ごはんまだ？ || I'm starving.：おなかがペコペコ（hungry よりずっと強い）
+I'm going to / call it a day / and head home. || 私は〜するつもりです / 今日はここまでにする / そして家に向かう || 今日はこのへんで切り上げて帰るよ。 || call it a day：その日の作業を切り上げる／head home：家に向かう
+Hold on, / let me get this straight. / You quit your job? || 待って / ちゃんと整理させて / あなたは仕事を辞めたの？ || ちょっと待って、整理させて。仕事辞めたの？ || let me get this straight：話を整理させて（驚いて確かめるとき）
+I'm not in the mood / for going out / tonight. || 私は気分ではありません / 出かける / 今夜は || 今夜は出かける気分じゃないんだ。 || be not in the mood for 〜：〜する気分じゃない
+Just kidding! / Don't take it / seriously. || 冗談だよ！ / それを受け取らないで / 真剣に || 冗談だよ！本気にしないで。 || Just kidding.：冗談だよ／take 〜 seriously：〜を真に受ける
+It's on me / tonight. / You paid last time. || 私のおごりです / 今夜は / 前回はあなたが払ったから || 今夜は僕のおごり。前回払ってくれたから。 || It's on me.：私のおごり（お店の「サービス」は on the house）
+I've been meaning to / call you, / but I've been so busy. || 私はずっと〜しようと思っていました / あなたに電話する / でもすごく忙しくて || ずっと電話しようと思ってたんだけど、すごく忙しくて。 || I've been meaning to 〜：ずっと〜しようと思っていた
+Don't get me wrong. / I like it, / but it's too expensive. || 誤解しないで / 私はそれが好きです / でも高すぎます || 誤解しないでね。気に入ってるけど、高すぎるんだ。 || Don't get me wrong.：誤解しないで（反対意見や本音の前置き）
+I'll keep my fingers crossed / for you. || 私は幸運を祈っています / あなたのために || うまくいくように祈ってるね。 || keep one's fingers crossed：幸運を祈る（人差し指と中指を重ねるしぐさから）
+That was a close call. / We almost missed / the flight. || 危ないところだった / 私たちはもう少しで乗り遅れるところだった / 飛行機に || 危なかった。もう少しで飛行機に乗り遅れるところだったよ。 || a close call：危機一髪・危ないところ
+I'm totally broke / until payday. || 私はまったくお金がありません / 給料日まで || 給料日まで金欠なんだ。 || be broke：お金がない・金欠だ
+Let's get together / sometime / next month. || 集まろう / いつか / 来月 || 来月どこかで集まろうよ。 || get together：（人と）集まる・会う
+I couldn't help / laughing / when I saw his face. || 私はこらえられませんでした / 笑うことを / 彼の顔を見たとき || 彼の顔を見て、笑わずにいられなかった。 || can't help -ing：〜せずにいられない
+You look / a bit down. / What's wrong? || あなたは見えます / 少し落ち込んでいるように / どうしたの？ || ちょっと元気ないね。どうしたの？ || look down／feel down：落ち込んでいる（ように見える）
+I'll make it up to you, / I promise. || 埋め合わせをするよ / 約束する || この埋め合わせは必ずするから、約束する。 || make it up to 人：人に埋め合わせをする
+Better late / than never. || 遅れてもいい / しないよりは || やらないよりは、遅れてもやったほうがいい。 || Better late than never.：遅れてもやらないよりまし（ことわざ。遅れて来た人へのひと言にも）
+I'm beat. / I'm going to / hit the sack / early tonight. || くたくただ / 私は〜するつもりです / 寝る / 今夜は早く || くたくた。今夜は早く寝るよ。 || I'm beat.：くたくただ／hit the sack：寝る（くだけた言い方）
+Keep me posted / on how it goes. || 私に知らせ続けて / それがどうなるかについて || どうなったか、また教えてね。 || keep 人 posted：人に最新の状況を知らせ続ける
+Whatever works / for you. || 何でもいいよ / あなたに都合のいいもので || 君の都合のいいほうでいいよ。 || Whatever works for you.：あなたの都合に合わせるよ
+I'm going to / treat myself / to a nice dinner. || 私は〜するつもりです / 自分にご褒美をあげる / おいしい夕食で || 自分へのご褒美に、おいしいディナーを食べに行くんだ。 || treat oneself (to 〜)：自分に（〜の）ご褒美をあげる
+`
+  },
+  {
+    level: "phrase-biz2",
+    text: `
+Let's go over / the agenda / before the meeting. || ざっと確認しましょう / 議題を / 会議の前に || 会議の前に議題を確認しましょう。 || go over 〜：〜を（ざっと）確認する・見直す
+Got it. / I'll get on it / right away. || わかりました / 私はそれに取りかかります / すぐに || 承知しました。すぐに取りかかります。 || get on it：（頼まれた仕事に）取りかかる
+Could you fill me in / on what I missed? || 私に詳しく教えてもらえますか / 私が聞き逃したことについて || 私がいなかった間のことを教えてもらえますか？ || fill 人 in (on 〜)：人に（〜の）詳しい情報や経緯を伝える
+Let's brainstorm / some ideas / for the campaign. || 自由に出し合いましょう / いくつかのアイデアを / キャンペーンのための || キャンペーンのアイデアを、みんなで出し合いましょう。 || brainstorm：自由にアイデアを出し合う
+We're running short on time, / so let's move on / to the next item. || 私たちは時間が足りなくなってきています / だから進みましょう / 次の項目に || 時間がなくなってきたので、次の項目に進みましょう。 || run short on 〜：〜が足りなくなる／move on (to 〜)：（〜に）進む
+I'll put together / a draft / by Wednesday. || 私はまとめます / 草案を / 水曜日までに || 水曜日までに草案をまとめます。 || put together：（資料などを）まとめる・作り上げる
+Can we set up / a call / sometime this week? || 設定できますか / 打ち合わせの電話を / 今週のどこかで || 今週どこかで打ち合わせの時間を取れますか？ || set up：（会議などを）設定する・手配する
+I'm going to / be out of the office / until Monday. || 私は〜の予定です / 不在に / 月曜日まで || 月曜日まで不在にします。 || be out of the office：不在にする（自動返信メールの定番。略して OOO）
+Let's think outside the box / and try / a different approach. || 枠にとらわれずに考えましょう / そして試しましょう / 違うやり方を || 発想を変えて、違うやり方を試してみましょう。 || think outside the box：常識にとらわれずに考える
+It's not my call, / so I'll check / with my manager. || それは私が決めることではありません / だから確認します / 上司に || 私の判断ではないので、上司に確認します。 || It's not my call.：私が決めることではない（call＝判断・決定）
+We can't afford / to cut corners / on safety. || 私たちには余裕はありません / 手を抜く / 安全面で || 安全面で手を抜くわけにはいきません。 || cut corners：（手間や費用を惜しんで）手を抜く
+Let's set a deadline / and stick to it. || 締め切りを決めましょう / そしてそれを守りましょう || 締め切りを決めて、それを守りましょう。 || stick to 〜：（決めたことを）守る・貫く
+I'll keep you in the loop / as things develop. || 私はあなたに情報を共有し続けます / 状況が進むにつれて || 進展があれば、随時共有します。 || keep 人 in the loop：人に情報を共有し続ける（loop 人 in の仲間）
+Thanks for / bringing this up. / It's an important issue. || ありがとう / これを持ち出してくれて / それは大事な問題です || この話を出してくれてありがとう。大事な問題ですね。 || bring up：（話題を）持ち出す
+Let's hold off / on the decision / until we have more data. || 待ちましょう / 決定は / もっとデータがそろうまで || もっとデータがそろうまで、決定は保留にしましょう。 || hold off (on 〜)：（〜を）先延ばしにする・保留する
+Can you run the numbers / and see / if it works? || 数字を計算してもらえますか / そして確かめて / それが成り立つか || 数字を試算して、成り立つか確かめてもらえますか？ || run the numbers：（採算などを）計算する・試算する
+We're on track / to launch / by the end of the month. || 私たちは順調です / 発売に向けて / 月末までの || 月末までの発売に向けて順調です。 || be on track：順調に進んでいる（遅れているのは off track）
+Let's not jump to conclusions / until we hear / from the client. || 結論を急ぐのはやめましょう / 聞くまでは / 顧客から || 顧客から話を聞くまで、結論を急ぐのはやめましょう。 || jump to conclusions：早まって結論を出す
+Sorry to interrupt, / but can I add / something? || 話をさえぎってすみません / でも付け加えてもいいですか / 一つ || 話の途中ですみませんが、一つ付け加えてもいいですか？ || Sorry to interrupt, but 〜：会議で発言に割り込むときの定番
+I'll take the lead / on this project. || 私が先頭に立ちます / このプロジェクトでは || このプロジェクトは私が主導します。 || take the lead (on 〜)：（〜で）主導する・率先して進める
+`
+  },
+  {
+    level: "phrase-react",
+    text: `
+Fair enough. / Let's do it / your way. || もっともだね / やろう / あなたのやり方で || なるほど、それもそうだね。君のやり方でやろう。 || Fair enough.：（相手の言い分を認めて）それもそうだ・それならいいよ
+No way! / You met him / in person? || うそでしょ！ / あなたは彼に会ったの？ / 直接 || うそ！本人に直接会ったの？ || No way!：うそでしょ・まさか（驚き）／in person：直接・本人に
+Tell me about it. / My commute / was terrible, too. || まったくだよ / 私の通勤も / ひどかったよ || ほんとそれ。こっちも通勤ひどかったよ。 || Tell me about it.：（共感して）ほんとそれ・まったくだ
+I know, right? / It was so good. || だよね？ / それはすごくよかった || だよね！すごくよかった。 || I know, right?：だよね・ほんとそう（強い同意）
+Good for you! / You deserve it. || よかったね！ / あなたにはそれだけの価値がある || よかったね！がんばってたもんね。 || Good for you!：よかったね（相手の成功を喜ぶ）／You deserve it.：当然の結果だよ
+That's too bad. / I hope / you feel better soon. || それは残念 / 私は願っています / あなたがすぐよくなることを || それは大変だったね。早くよくなるといいね。 || That's too bad.：それは残念・気の毒に
+Sounds good / to me. / See you at seven. || いいと思う / 私には / 7時に会おう || いいね。じゃあ7時にね。 || Sounds good.：いいね・了解（提案への返事の定番）
+I'm not sure / about that. / Let me think. || 私はどうかな / それについては / 考えさせて || それはどうかな。ちょっと考えさせて。 || I'm not sure about that.：それはどうかな（やんわり反対する）
+You're kidding! / He's moving / to Canada? || 冗談でしょ！ / 彼は引っ越すの？ / カナダに || 冗談でしょ！彼、カナダに引っ越すの？ || You're kidding!：冗談でしょ・本当に？
+Same here. / I'm exhausted / after that meeting. || 私も同じ / 私はへとへとです / あの会議のあとで || 私も。あの会議のあと、へとへと。 || Same here.：私も同じ
+Way to go! / You passed the exam! || よくやった！ / あなたは試験に合格したね！ || やったね！試験に合格したんだ！ || Way to go!：よくやった・やったね（ほめる決まり文句）
+I see what you mean, / but I still think / we should wait. || 言いたいことはわかります / でも私はやはり思います / 私たちは待つべきだと || 言いたいことはわかるけど、やっぱり待つべきだと思う。 || I see what you mean.：言いたいことはわかる（反論の前置きにも）
+Oh, / that explains it. / No wonder / he was so quiet. || ああ / それで説明がつく / 道理で / 彼がとても静かだったのは || ああ、それでか。道理で彼が静かだったわけだ。 || No wonder 〜：道理で〜なわけだ
+Seriously? / I had no idea. || 本当に？ / 全然知らなかった || マジで？全然知らなかった。 || Seriously?：本当に？・マジで？／I had no idea.：まったく知らなかった
+Lucky you! / I wish / I could go too. || いいなあ！ / 願うよ / 私も行けたら || いいなあ！私も行けたらいいのに。 || Lucky you!：いいなあ・うらやましい
+Oh, / I'm sorry to hear that. / Is she okay? || ああ / それを聞いて残念です / 彼女は大丈夫？ || ああ、それは大変だったね。彼女は大丈夫？ || I'm sorry to hear that.：（悪い知らせに）それはお気の毒に
+Exactly. / That's what I was / trying to say. || その通り / それが私が〜していたことです / 言おうと || その通り。それが言いたかったんだ。 || Exactly.：まさにその通り
+Good question. / I'm not sure / myself. || いい質問だね / 私はわからない / 自分でも || いい質問だね。自分でもよくわからないんだ。 || Good question.：いい質問だね（すぐに答えられないときの前置きにも）
+Oh, / come on! / You can do better than that. || ああ / ちょっと！ / あなたはそれよりうまくできる || ちょっと、もう！君ならもっとできるでしょ。 || Come on!：ちょっと・いいかげんにして（励ます「さあ！」にもなる。言い方で意味が変わる）
+Gotcha. / I'll send it / right now. || 了解 / 私はそれを送ります / 今すぐ || 了解、今すぐ送るね。 || Gotcha.：了解・わかった（I got you. のくだけた言い方）
+`
+  },
+  {
+    level: "phrase-online",
+    text: `
+You're on mute. / We can't hear you. || あなたはミュートになっています / 私たちは聞こえません || ミュートになってますよ。声が聞こえません。 || You're on mute.：ミュートになっている（オンライン会議の定番）
+Can everyone / see my screen? || 皆さん見えますか / 私の画面が || 皆さん、私の画面見えていますか？ || Can you see my screen?：画面共有の最初のひと言
+You froze / for a second. / Could you repeat that? || あなたの画面が固まりました / 一瞬 / もう一度言ってもらえますか？ || 一瞬画面が固まってました。もう一度言ってもらえますか？ || freeze（過去形 froze）：（画面や映像が）固まる
+Sorry, / you're breaking up. / Can you hear me now? || すみません / あなたの音声が途切れています / 今は聞こえますか？ || すみません、音声が途切れています。今は聞こえますか？ || break up：（電話や通信の）音声が途切れる
+I'll drop the link / in the chat. || 私はリンクを貼ります / チャットに || チャットにリンクを貼りますね。 || drop 〜 in the chat：チャットに〜を貼る・投げる
+Let's give people / a minute or two / to join. || 皆さんにあげましょう / 1、2分を / 参加するための || 皆さんが入ってくるまで、1、2分待ちましょう。 || give 人 a minute：人に少し時間をあげる（会議の始まりの定番）
+Sorry, / I think / I'm having connection issues. || すみません / 私は思います / 私は接続の問題を抱えている || すみません、接続が悪いみたいです。 || connection issues：接続の不具合
+I have a hard stop / at three, / so I'll need to leave / on time. || 私はずらせない終了時刻があります / 3時に / だから私は退出する必要があります / 時間通りに || 3時には必ず抜けないといけないので、時間通りに失礼します。 || a hard stop：（次の予定があって）延長できない終了時刻
+Can you send me / a calendar invite? || 送ってもらえますか / カレンダーの招待を || カレンダーの招待を送ってもらえますか？ || calendar invite：（会議の）予定の招待
+Feel free to / turn off your camera / if you need to. || ご自由にどうぞ / カメラをオフにするのは / 必要なら || 必要ならカメラはオフにしてもかまいません。 || Feel free to 〜：遠慮なく〜してください
+Did I lose you? / I think / the call dropped. || 私の声、届いていますか？ / 私は思います / 通話が切れた || 聞こえてますか？通話が切れたみたいです。 || Did I lose you?：（通話が切れたかと思って）聞こえてる？／the call dropped：通話が切れた
+Sorry, / I was talking / on mute. || ごめんなさい / 私は話していました / ミュートのままで || すみません、ミュートのまま話してました。 || on mute：ミュートの状態で（オンライン会議でよくある失敗）
+Let's move this discussion / to a separate thread. || この議論を移しましょう / 別のスレッドに || この話は別スレッドでやりましょう。 || thread：（チャットの）スレッド。会議でいう take 〜 offline のチャット版
+I'll ping you / when I'm done. || 私はあなたに連絡します / 終わったら || 終わったらチャットで声かけるね。 || ping 人：（チャットなどで）人に軽く連絡する
+Can you hear me / okay? / Let me know / if the sound is bad. || 私の声が聞こえますか / 問題なく / 教えてください / 音が悪ければ || 声、ちゃんと聞こえてますか？音が悪かったら言ってください。 || Can you hear me okay?：接続を確かめる定番のひと言
+There's an echo. / Could everyone mute / when they're not speaking? || 音が反響しています / 皆さんミュートにしてもらえますか / 話していないときは || 音が反響しているので、話していないときは皆さんミュートにしてもらえますか？ || mute：ミュートにする（動詞としても使う）
+I'll record the meeting / for those / who couldn't make it. || 私は会議を録画します / 人たちのために / 来られなかった || 来られなかった人のために、会議を録画しておきます。 || those who 〜：〜な人たち／make it：（都合をつけて）来られる
+Let's do a quick round / of updates. || 手短に一巡しましょう / 近況報告の || 一人ずつ、手短に進捗を共有していきましょう。 || a round of updates：全員が順番に進捗を話すこと
+I'm going to / hop off now. / Thanks, everyone! || 私は〜します / 今抜けます / 皆さんありがとう！ || そろそろ抜けます。皆さんありがとうございました！ || hop off：（会議や通話から）抜ける（参加するのは hop on）
+Sorry for the late reply. / I was out / all afternoon. || 返信が遅れてごめんなさい / 私は外出していました / 午後ずっと || 返信遅くなってすみません。午後ずっと外出していました。 || Sorry for the late reply.：返信が遅れてすみません（チャットやメールの書き出しの定番）
+`
+  },
   /*
    * ストーリー
    *   level: "story" にして、story（英数字の ID）・title（英語の題名）・titleJa（日本語の題名）・note（難しさなど）を付けます。

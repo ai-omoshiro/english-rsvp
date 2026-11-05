@@ -136,6 +136,99 @@ tighten a screw || ねじを締める || ゆるめるのは loosen
 `
   },
   {
+    scene: "living",
+    category: "家の中",
+    title: "リビング・くつろぎ",
+    emoji: "🛋️",
+    desc: "ソファでのんびり過ごす時間。家具と、くつろぐ動作",
+    text: `
+couch || ソファ || アメリカでよく使う言い方。sofa とも言う || 🛋️
+cushion || クッション || ソファの上の小さな枕
+coffee table || ローテーブル || ソファの前に置く低いテーブル
+bookshelf || 本棚 || 本を並べておく棚 || 📚
+curtains || カーテン || 窓の前で開け閉めする布。ふつう複数形
+rug || ラグ・敷物 || 床の一部に敷く、小さめのじゅうたん
+blanket || 毛布・ブランケット || ソファでくるまる
+houseplant || 観葉植物 || 部屋に置く鉢植え || 🪴
+windowsill || 窓台 || 窓の下の、物を置ける出っぱり。猫がよく座っている
+lie on the couch || ソファに寝転がる || 休みの日はずっとここ
+flip through channels || チャンネルをあちこち変える || 見たい番組がなくて、リモコンをポチポチ
+binge-watch a show || ドラマを一気見する || 何話も続けて見てしまう
+take a nap || 昼寝する || ソファでうとうと || 😴
+open the curtains || カーテンを開ける || 朝の光を部屋に入れる
+turn up the heat || 暖房を強くする || 寒いので設定温度を上げる
+dust the shelves || 棚のほこりを払う || 布やはたきでほこりを取る
+put my feet up || 足をのせてくつろぐ || 台やいすに足を投げ出して、のんびり
+curl up with a book || 丸くなって本を読む || ソファで体を丸め、くつろぎながら
+a comfy chair || 座り心地のいいいす || comfy は comfortable のくだけた言い方
+a cozy room || 居心地のいい部屋 || あたたかくて落ち着く
+a stack of magazines || 雑誌の山 || 読んでいない雑誌が積み重なっている
+a lazy Sunday || だらだら過ごす日曜日 || 何もしないで、のんびりする日
+`
+  },
+  {
+    scene: "garden",
+    category: "家の中",
+    title: "庭・ベランダ・植物",
+    emoji: "🌱",
+    desc: "水やりや草むしり。植物が育つ様子の言い方も",
+    text: `
+watering can || じょうろ || 植物に水をやる道具
+hose || ホース || 庭で水をまく長い管
+flowerpot || 植木鉢 || 花や野菜を植える鉢
+soil || 土 || 植物を植える土。dirt とも言う
+seed || 種 || まくと芽が出る
+weed || 雑草 || 抜いても抜いても生えてくる
+lawn || 芝生 || 家の前の、短く刈った草
+fence || フェンス・塀 || 庭のまわりの囲い
+ladybug || テントウムシ || 赤に黒い点。イギリスでは ladybird || 🐞
+a sprout || 芽 || 種から出たばかりの小さな芽 || 🌱
+water the plants || 植物に水をやる || 毎朝じょうろで
+pull weeds || 草むしりをする || 雑草を根っこから抜く
+mow the lawn || 芝刈りをする || 芝刈り機で芝を短くする
+plant seeds || 種をまく || 土に穴をあけて
+rake leaves || 落ち葉をかき集める || 熊手（rake）で集める || 🍂
+grow tomatoes || トマトを育てる || ベランダの家庭菜園で || 🍅
+pick flowers || 花をつむ || 野原や庭で
+trim the bushes || 植え込みを刈り込む || はさみで形を整える
+a wilted flower || しおれた花 || 水が足りなくて、ぐったり || 🥀
+a sunny spot || 日当たりのいい場所 || 植物を置くならここ
+a vegetable garden || 家庭菜園 || 野菜を育てる畑や花壇
+a green thumb || 植物を育てる才能 || have a green thumb で「園芸が上手」。イギリスでは green fingers
+`
+  },
+  {
+    scene: "pets",
+    category: "家の中",
+    title: "ペット・動物",
+    emoji: "🐶",
+    desc: "犬や猫の世話と、動物のしぐさ",
+    text: `
+leash || （犬の）リード || 散歩のときに首輪につなぐひも
+dog collar || （犬の）首輪 || 名札や鈴を付ける
+doghouse || 犬小屋 || 庭にある犬の家
+litter box || 猫のトイレ || 砂を入れた箱
+food bowl || えさ入れ || ペットのごはんを入れる器
+treat || （ペットの）おやつ || ごほうびにあげる
+vet || 獣医・動物病院 || veterinarian の略
+puppy || 子犬 || 🐶
+kitten || 子猫 || 🐱
+paw || （犬や猫の）足 || 肉球のある足 || 🐾
+whiskers || （猫などの）ひげ || 顔の横にピンと生えている
+walk the dog || 犬を散歩させる || 朝と夕方に
+feed the cat || 猫にえさをやる || お皿にキャットフードを入れる
+wag its tail || しっぽを振る || うれしいときの犬 || 🐕
+bark || ほえる || ワンワン
+purr || （猫が）のどをゴロゴロ鳴らす || なでられて気持ちいいとき
+scratch the sofa || ソファで爪とぎをする || 猫が家具を引っかく
+play fetch || 取ってこい遊びをする || 投げたボールを犬が取ってくる
+shed || 毛が抜ける || 春になると服が毛だらけ
+a stray cat || 野良猫 || 飼い主がいない
+a well-behaved dog || しつけのいい犬 || ほえずに、おとなしく待てる
+pet-friendly || ペット可の || ホテルやアパートで「ペットOK」
+`
+  },
+  {
     scene: "town",
     category: "外出・旅行",
     title: "街・交通",
@@ -322,6 +415,68 @@ pack my suitcase || スーツケースに荷物を詰める || 出発前の夜�
 `
   },
   {
+    scene: "outdoors",
+    category: "外出・旅行",
+    title: "アウトドア・自然",
+    emoji: "🏕️",
+    desc: "キャンプや山歩き。自然の中の物と動作",
+    text: `
+tent || テント || ⛺
+campfire || たき火・キャンプファイヤー || 🔥
+sleeping bag || 寝袋 || 中に入って眠る袋
+trail || 山道・遊歩道 || 山や森の中の歩く道
+waterfall || 滝
+cliff || 崖 || 落ちたら危ない、切り立った岩
+riverbank || 川岸・土手 || 川のほとり
+bug spray || 虫よけスプレー || 蚊を寄せつけない
+sunscreen || 日焼け止め || 外に出る前にぬる
+backpack || リュック || 🎒
+go hiking || ハイキングに行く || 山や自然の中を歩く || 🥾
+pitch a tent || テントを張る || ペグを打ち込んで
+build a fire || 火をおこす || 薪を組んで
+roast marshmallows || マシュマロを焼く || たき火で、棒に刺して
+reach the top || 頂上に着く || 山登りのゴール
+go fishing || 釣りに行く || 🎣
+skip stones || 水切りをする || 平たい石を水面ではねさせる
+a mosquito bite || 蚊に刺されたあと || かゆい！ || 🦟
+a steep hill || 急な坂 || 息が切れる
+a breathtaking view || 息をのむような景色 || 頂上から見下ろすと
+a starry sky || 満天の星空 || 街の明かりがない夜 || 🌌
+fresh air || 新鮮な空気 || 胸いっぱいに吸い込む
+`
+  },
+  {
+    scene: "fun",
+    category: "外出・旅行",
+    title: "映画・ライブ・遊び",
+    emoji: "🎬",
+    desc: "映画館やライブ、遊園地。チケットまわりの言い方も",
+    text: `
+movie theater || 映画館 || イギリスでは cinema || 🎬
+popcorn || ポップコーン || 🍿
+trailer || 予告編 || 本編の前に流れる
+subtitles || 字幕 || 画面の下に出る文字
+sequel || 続編 || 「2」が出た
+the front row || 最前列 || いちばん前の席
+box office || チケット売り場 || 劇場や映画館の窓口。「興行成績」の意味でも使う
+amusement park || 遊園地 || 🎡
+merry-go-round || メリーゴーラウンド || carousel とも言う
+concert || コンサート・ライブ || live は「生の」の意味。ライブは concert や show || 🎤
+encore || アンコール || 終わったあと、もう1曲
+book tickets || チケットを予約する || ネットで前もって
+wait in line || 列に並ぶ || イギリスでは queue
+sing along || 一緒に歌う || 曲に合わせて観客も
+give a standing ovation || 立ち上がって拍手を送る || 感動して総立ちに || 👏
+see a movie || 映画を見る || 映画館で見るときは see をよく使う
+cry at the ending || 結末で泣く || ハンカチが必要
+spoil the ending || 結末をネタバレする || ネタバレは spoiler
+a sold-out show || 売り切れの公演 || チケットが完売
+a scary movie || 怖い映画 || horror movie とも言う
+a packed theater || 満員の劇場・映画館 || 空席がひとつもない
+a cliffhanger || 続きが気になる終わり方 || 「次回に続く」でハラハラさせて終わる
+`
+  },
+  {
     scene: "body",
     category: "人と体",
     title: "体・病院",
@@ -446,6 +601,68 @@ a slippery road || すべりやすい道 || 雪や雨のあと
 `
   },
   {
+    scene: "routine",
+    category: "人と体",
+    title: "朝と夜の習慣",
+    emoji: "🌙",
+    desc: "起きてから寝るまで。寝坊や夜ふかしの言い方も",
+    text: `
+alarm clock || 目覚まし時計 || ⏰
+pillow || 枕 || 頭をのせて眠る
+bedtime || 寝る時間 || 子どもは9時が bedtime
+bedside table || ベッド横の小さな台 || 目覚ましやスマホを置く。nightstand とも言う
+wake up || 目が覚める || 起き上がるのは get up
+get up || 起きる・起き上がる || 布団から出る
+hit the snooze button || スヌーズボタンを押す || あと5分だけ……
+oversleep || 寝坊する || 目覚ましに気づかなかった
+brush my teeth || 歯をみがく || 朝と寝る前に
+wash my face || 顔を洗う || 冷たい水で目を覚ます
+get dressed || 服を着る || パジャマから外出用の服に
+grab breakfast || 朝ごはんをさっと済ませる || grab は「さっとつかむ」
+rush out the door || 急いで家を飛び出す || 遅刻しそう！
+commute to work || 通勤する || 毎朝電車で
+get home || 家に帰り着く || ただいま
+set the alarm || 目覚ましをセットする || 寝る前に時間を合わせる
+stay up late || 夜ふかしする || 気づいたら夜中の2時
+fall asleep || 眠りに落ちる・寝つく || 布団に入ってすぐ
+toss and turn || 何度も寝返りを打つ || 眠れなくて、ごろごろ
+have a nightmare || 悪い夢を見る || うなされて目が覚める
+a light sleeper || 眠りが浅い人 || 小さな音ですぐ目が覚める。反対は a heavy sleeper
+an early bird || 早起きの人 || 夜型の人は a night owl
+`
+  },
+  {
+    scene: "taste",
+    category: "人と体",
+    title: "味・におい・食感",
+    emoji: "😋",
+    desc: "「おいしい」の先の言い方。食べた感じが伝わる表現",
+    text: `
+crunchy || ザクザク・カリカリした || かむと音がする。ナッツやせんべい
+crispy || パリッとした・サクサクの || 揚げたての衣やポテトチップス
+chewy || かみごたえのある・もちもちの || グミやベーグル、おもち
+bland || 味が薄い・味気ない || 塩気も風味も足りない
+salty || しょっぱい || 塩を入れすぎた
+sour || すっぱい || レモンや梅干し || 🍋
+mouthwatering || よだれが出そうな || 見ただけでおなかが鳴る
+greasy food || 油っこい食べ物 || 口のまわりがテカテカ
+a juicy steak || 肉汁たっぷりのステーキ || 🥩
+tender meat || やわらかい肉 || 歯がすっと入る。かたい肉は tough
+fluffy pancakes || ふわふわのパンケーキ || 🥞
+bitter coffee || 苦いコーヒー || ブラックで || ☕
+stale bread || 古くなったパン || 何日も置いて、かたくパサパサ
+smell delicious || おいしそうなにおいがする || 台所からいいにおいが漂ってくる
+taste funny || 変な味がする || 牛乳が古いかも。funny は「変な」
+melt in my mouth || 口の中でとろける || 高級なチョコや霜降り肉
+burn my tongue || 舌をやけどする || 熱いスープを急いで飲んで
+lick my lips || 舌なめずりする || おいしそうで、思わず
+a strong smell || 強いにおい || 納豆や、においの強いチーズ
+a pinch of salt || ひとつまみの塩 || 指先で少しだけ || 🧂
+an acquired taste || だんだん好きになる味 || 最初はおいしいと思えない。ビールやコーヒーなど
+too spicy for me || 私には辛すぎる || 口から火が出そう || 🌶️
+`
+  },
+  {
     scene: "office",
     category: "仕事・お金・デジタル",
     title: "オフィス・文房具",
@@ -539,6 +756,68 @@ break a bill || お札をくずす || 「1万円札をくずしてもらえま�
 `
   },
   {
+    scene: "delivery",
+    category: "仕事・お金・デジタル",
+    title: "ネット通販・宅配",
+    emoji: "📦",
+    desc: "ポチッと注文して届くまで。返品や再配達の言い方も",
+    text: `
+package || 荷物・小包 || イギリスでは parcel || 📦
+tracking number || 追跡番号 || 荷物がどこにあるか調べる番号
+delivery driver || 配達員 || トラックで荷物を届けてくれる人
+cardboard box || 段ボール箱
+bubble wrap || プチプチ・気泡緩衝材 || つぶすと楽しい
+shipping fee || 送料
+customer review || 購入者のレビュー || 星いくつ？ || ⭐
+order history || 注文履歴 || 前に何を買ったか見られる
+return label || 返品用の伝票 || 箱に貼って送り返す
+add to cart || カートに入れる || まだ買うとは決めていない
+place an order || 注文する || 「注文を確定する」ボタンを押す
+track a package || 荷物を追跡する || 今どこにあるか確認する
+sign for a package || サインして荷物を受け取る || 玄関で配達員に
+leave it at the door || 玄関の前に置いておく || 置き配でお願いします
+reschedule a delivery || 配達日を変更する || 不在だったので再配達を頼む
+cancel an order || 注文を取り消す || 発送される前に
+unbox a new phone || 新しいスマホの箱を開ける || 開封の瞬間はわくわく
+free shipping || 送料無料
+next-day delivery || 翌日配達 || 今日頼めば明日届く
+a damaged item || 破損した商品 || 箱がつぶれて、中身が壊れている
+a missed delivery || 受け取れなかった配達 || 留守中に来て、不在票が入っていた
+the wrong size || 違うサイズ || 届いたら小さかった
+`
+  },
+  {
+    scene: "factory",
+    category: "仕事・お金・デジタル",
+    title: "工場・倉庫",
+    emoji: "🏭",
+    desc: "ものづくりの現場。安全と品質の言い方も",
+    text: `
+assembly line || 組み立てライン || 部品が流れてきて、順番に組み立てる
+conveyor belt || ベルトコンベア || 物を運ぶ、動くベルト
+forklift || フォークリフト || 荷物を持ち上げて運ぶ車
+warehouse || 倉庫 || 商品や部品を保管する建物
+pallet || パレット || 荷物をのせる平たい台
+hard hat || ヘルメット（作業用） || helmet はバイクやスポーツ用に使うことが多い || 👷
+safety goggles || 保護メガネ || 目を守るゴーグル || 🥽
+work gloves || 作業用手袋 || 🧤
+spare parts || 予備の部品 || 壊れたときの交換用
+inventory || 在庫 || 倉庫にある商品や部品の量
+blueprint || 設計図 || 昔は青い紙に印刷されていた
+run a machine || 機械を動かす || スイッチを入れて操作する
+inspect a part || 部品を検査する || 傷やずれがないか確かめる
+load a truck || トラックに荷物を積む || 下ろすのは unload
+ship products || 製品を出荷する || 倉庫からお客さんへ
+shut down the line || ラインを止める || トラブルや点検のとき
+work the night shift || 夜勤をする || 夜から朝まで働く
+wear protective gear || 保護具を身につける || ヘルメット、手袋、安全靴
+a defective product || 不良品 || 検査ではねられる
+a near miss || ヒヤリハット || 事故になりかけた出来事
+a machine breakdown || 機械の故障 || 急に止まって動かない
+a rush order || 急ぎの注文 || 特急でお願いします
+`
+  },
+  {
     scene: "wasei",
     category: "和製英語",
     title: "和製英語の言い換え（第1弾）",
@@ -598,6 +877,37 @@ customer support || アフターサービス || after service は通じない
 studio apartment || ワンルーム（マンション） || one-room は通じにくい
 TV personality || （テレビの）タレント || talent は「才能」の意味
 popsicle || アイスキャンディー || ice candy は通じない
+`
+  },
+  {
+    scene: "wasei3",
+    category: "和製英語",
+    title: "和製英語の言い換え（第3弾）",
+    emoji: "🔁",
+    desc: "まだまだある、そのままでは通じないカタカナ語",
+    text: `
+laundromat || コインランドリー || coin laundry は通じにくい
+sewing machine || ミシン || 「ミシン」は machine がなまったもの
+heater || ストーブ || stove はアメリカではふつう料理用のコンロ
+microwave || 電子レンジ || range はアメリカでは「オーブン付きのコンロ」
+plastic bag || ビニール袋 || vinyl bag とはふつう言わない
+plastic wrap || （食品用）ラップ || イギリスでは cling film
+mug || マグカップ || mug cup とはふつう言わない || ☕
+arcade || ゲームセンター || game center は通じない
+corn dog || アメリカンドッグ || American dog は通じない
+night game || ナイター || nighter は通じない
+motorcycle || （オート）バイク || bike はふつう自転車のこと || 🏍️
+false start || フライング || flying は「飛ぶこと」
+fist pump || ガッツポーズ || guts pose は通じない
+marker || マジック（ペン） || 「マジック」は商品名から
+one size fits all || フリーサイズ || free size は通じない
+soda || サイダー || cider はアメリカではりんごジュース、イギリスではりんごのお酒
+playing cards || トランプ || trump は「切り札」の意味 || 🃏
+buffet || バイキング（食べ放題） || Viking は「北欧の海賊」
+layoffs || リストラ || restructuring は組織の再編全体を指す
+sleeveless || ノースリーブ || no sleeve とは言わない
+custom-made || オーダーメイド || order made は通じない
+sensitive || ナイーブ || naive は「世間知らず」の意味
 `
   }
 ];
