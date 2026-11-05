@@ -22,8 +22,8 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | `app.js` | 再生・操作・保存の処理 |
 | `LICENSE`・`LICENSE-CONTENT.md` | ライセンス（プログラムは MIT、文章と画像は CC BY 4.0） |
 | `og-image.png`・`apple-touch-icon.png`・`favicon-32.png` | リンクカードの画像とアイコン |
-| `sentences.js` | 例文データ（短文90文：基礎14・日常会話14・ビジネス12・上級30・ビジネス上級20。よく使う表現60文：基礎20・日常20・ビジネス20。ストーリー16話・211文：オリジナル3話・名作7話・ショートショート6話） |
-| `words.js` | 単語帳データ（19の場面・418語） |
+| `sentences.js` | 例文データ（短文90文：基礎14・日常会話14・ビジネス12・上級30・ビジネス上級20。よく使う表現160文：基礎・日常・ビジネス 各20（第2弾も各20）・あいづち20・オンライン会議20。ストーリー16話・211文：オリジナル3話・名作7話・ショートショート6話） |
+| `words.js` | 単語帳データ（29の場面・638語） |
 
 ### レベル
 
@@ -44,6 +44,11 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | よく使う表現・基礎 | 20 | `pick 人 up`（迎えに行く）、`run into`（偶然会う）、`Hang on a second.`（ちょっと待って）、`figure out`（わかる）、`It's up to you.`（あなた次第）、`My phone died.`（携帯の電池が切れた） |
 | よく使う表現・日常 | 20 | `That makes sense.`（なるほど）、`sleep on it`（一晩考える）、`take a rain check`（また今度にする）、`I'm tied up.`（手が離せない）、`My bad.`（ごめん、自分のミス）、`play it by ear`（成り行きで決める） |
 | よく使う表現・ビジネス | 20 | `walk 人 through`（順を追って説明する）、`touch base`（連絡を取り合う）、`circle back`（改めて戻る）、`loop 人 in`（話に加える）、`a ballpark figure`（概算）、`get the ball rolling`（始動させる） |
+| よく使う表現・基礎（第2弾） | 20 | `look after`（世話をする）、`give 人 a hand`（手を貸す）、`I've got this.`（任せて）、`make it`（都合をつけて行ける）、`Is this seat taken?`（この席空いてますか）、`I'm good.`（結構です） |
+| よく使う表現・日常（第2弾） | 20 | `call it a day`（切り上げる）、`It's on me.`（おごるよ）、`Don't get me wrong.`（誤解しないで）、`a close call`（危機一髪）、`I'm beat.`（くたくた）、`keep 人 posted`（随時知らせる） |
+| よく使う表現・ビジネス（第2弾） | 20 | `fill 人 in`（経緯を伝える）、`It's not my call.`（私の判断ではない）、`cut corners`（手を抜く）、`hold off`（保留する）、`run the numbers`（試算する）、`be on track`（順調だ） |
+| よく使う表現・あいづち | 20 | `Fair enough.`（それもそうだ）、`Tell me about it.`（ほんとそれ）、`No way!`（うそでしょ）、`I know, right?`（だよね）、`Lucky you!`（いいなあ）、`Gotcha.`（了解） |
+| よく使う表現・オンライン会議 | 20 | `You're on mute.`（ミュートになってます）、`You're breaking up.`（音声が途切れてます）、`drop the link in the chat`（チャットにリンクを貼る）、`a hard stop`（延長できない終了時刻）、`ping 人`（軽く連絡する）、`hop off`（抜ける） |
 
 - 「全レベル」にも含まれます。
 - 今までの例文のうち、`walk us through`、`follow up on`、`Please find attached`、`Do you mind if 〜?` のような分かりにくい表現を含む14文にも、表現メモを付けました（英文は変えていないので、苦手マークはそのままです）。
@@ -102,26 +107,35 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 
 | 見出し | 場面（各22語） |
 | --- | --- |
-| 家の中 | 🍳 台所／🛁 洗面所・お風呂・家の中／👕 服・身だしなみ／🔧 工具・DIY |
-| 外出・旅行 | 🚦 街・交通／🚗 車・運転／🛒 お店・買い物／🍽️ レストラン・カフェ／✈️ 空港・飛行機／🏨 ホテル・旅行 |
-| 人と体 | 🩺 体・病院／😊 表情・しぐさ・気持ち／🏃 スポーツ・ジム／☔ 天気・季節 |
-| 仕事・お金・デジタル | 📎 オフィス・文房具／📱 スマホ・パソコン／💰 お金・銀行 |
-| 和製英語 | 🔁 和製英語の言い換え（第1弾・第2弾） |
+| 家の中 | 🍳 台所／🛁 洗面所・お風呂・家の中／👕 服・身だしなみ／🔧 工具・DIY／🛋️ リビング・くつろぎ／🌱 庭・ベランダ・植物／🐶 ペット・動物 |
+| 外出・旅行 | 🚦 街・交通／🚗 車・運転／🛒 お店・買い物／🍽️ レストラン・カフェ／✈️ 空港・飛行機／🏨 ホテル・旅行／🏕️ アウトドア・自然／🎬 映画・ライブ・遊び |
+| 人と体 | 🩺 体・病院／😊 表情・しぐさ・気持ち／🏃 スポーツ・ジム／☔ 天気・季節／🌙 朝と夜の習慣／😋 味・におい・食感 |
+| 仕事・お金・デジタル | 📎 オフィス・文房具／📱 スマホ・パソコン／💰 お金・銀行／📦 ネット通販・宅配／🏭 工場・倉庫 |
+| 和製英語 | 🔁 和製英語の言い換え（第1弾・第2弾・第3弾） |
 
 場面ごとの例：
 
 - **服・身だしなみ**：`sleeve`（袖）、`a wrinkled shirt`（しわくちゃのシャツ）、`tie my shoes`（靴ひもを結ぶ）、`roll up my sleeves`（袖をまくる）
+- **リビング・くつろぎ**：`couch`（ソファ）、`binge-watch a show`（ドラマを一気見する）、`put my feet up`（足をのせてくつろぐ）、`a lazy Sunday`（だらだら過ごす日曜日）
+- **庭・ベランダ・植物**：`watering can`（じょうろ）、`pull weeds`（草むしりをする）、`a wilted flower`（しおれた花）、`a green thumb`（植物を育てる才能）
+- **ペット・動物**：`leash`（リード）、`wag its tail`（しっぽを振る）、`purr`（のどをゴロゴロ鳴らす）、`a stray cat`（野良猫）
 - **工具・DIY**：`screwdriver`（ドライバー）、`duct tape`（ガムテープ）、`a squeaky door`（きしむドア）、`put together furniture`（家具を組み立てる）
 - **車・運転**：`turn signal`（ウインカー）、`buckle up`（シートベルトを締める）、`pull over`（車を寄せて止める）、`fill up the tank`（満タンにする）
 - **レストラン・カフェ**：`to-go box`（持ち帰り用の容器）、`free refill`（おかわり無料）、`for here or to go`（店内か持ち帰りか）、`a sweet tooth`（甘いもの好き）
 - **空港・飛行機**：`boarding pass`（搭乗券）、`carry-on`（機内持ち込みの手荷物）、`jet lag`（時差ぼけ）、`go through security`（保安検査を通る）
 - **ホテル・旅行**：`front desk`（フロント）、`late checkout`（遅めのチェックアウト）、`store my luggage`（荷物を預ける）
+- **アウトドア・自然**：`pitch a tent`（テントを張る）、`bug spray`（虫よけスプレー）、`skip stones`（水切りをする）、`a breathtaking view`（息をのむような景色）
+- **映画・ライブ・遊び**：`subtitles`（字幕）、`sequel`（続編）、`spoil the ending`（ネタバレする）、`a cliffhanger`（続きが気になる終わり方）
 - **表情・しぐさ・気持ち**：`shrug`（肩をすくめる）、`frown`（顔をしかめる）、`roll my eyes`（あきれて目を回す）、`butterflies in my stomach`（緊張でそわそわ）。動詞でも目に浮かび、日本語にない動作も多いので、物語を読むときにも役立ちます
 - **スポーツ・ジム**：`treadmill`（ランニングマシン）、`work out`（筋トレする）、`break a sweat`（ひと汗かく）、`a close game`（接戦）
 - **天気・季節**：`drizzle`（霧雨）、`puddle`（水たまり）、`humid`（蒸し暑い）、`get soaked`（びしょぬれになる）
+- **朝と夜の習慣**：`hit the snooze button`（スヌーズを押す）、`oversleep`（寝坊する）、`toss and turn`（何度も寝返りを打つ）、`an early bird`（早起きの人）
+- **味・におい・食感**：`crunchy`（カリカリした）、`chewy`（もちもちの）、`bland`（味が薄い）、`melt in my mouth`（口の中でとろける）、`an acquired taste`（だんだん好きになる味）
 - **スマホ・パソコン**：`notification`（通知）、`a cracked screen`（画面のひび割れ）、`The screen froze.`（画面が固まった）、`share my screen`（画面を共有する）
 - **お金・銀行**：`withdraw cash`（現金を引き出す）、`loose change`（小銭）、`break a bill`（お札をくずす）
-- **和製英語の言い換え**：コンセント→`outlet`、ホッチキス→`stapler`（第1弾）、ペットボトル→`plastic bottle`、アンケート→`survey`、リフォーム→`renovation`、ガムテープ→`duct tape` など（第2弾ほか）
+- **ネット通販・宅配**：`tracking number`（追跡番号）、`bubble wrap`（プチプチ）、`leave it at the door`（置き配にする）、`a missed delivery`（受け取れなかった配達）
+- **工場・倉庫**：`assembly line`（組み立てライン）、`forklift`（フォークリフト）、`a defective product`（不良品）、`a near miss`（ヒヤリハット）
+- **和製英語の言い換え**：コンセント→`outlet`、ホッチキス→`stapler`（第1弾）、ペットボトル→`plastic bottle`、アンケート→`survey`、リフォーム→`renovation`、ガムテープ→`duct tape` など（第2弾ほか）、ミシン→`sewing machine`、ガッツポーズ→`fist pump`、ナイーブ→`sensitive`、リストラ→`layoffs` など（第3弾）
 
 - 各カードには、絵が浮かびやすいように **場面のひとこと（ヒント）** を付けています。絵文字は、ぴったり合う語にだけ付けています。
 - **日→英**：単語帳を選ぶと、画面下に「日→英」ボタンが出ます（キーボードは `R`）。オンにすると、日本語（と絵文字・ヒント）を見て英語を思い出す練習になります。ヒントに英語が入っていて答えがわかってしまうカードでは、ヒントを表の面に出しません。

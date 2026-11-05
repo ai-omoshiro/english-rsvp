@@ -8,7 +8,10 @@
     basic: "基礎", daily: "日常会話", business: "ビジネス",
     advanced: "上級", bizadv: "ビジネス上級", story: "ストーリー",
     words: "単語帳",
-    "phrase-basic": "よく使う表現・基礎", "phrase-daily": "よく使う表現・日常", "phrase-biz": "よく使う表現・ビジネス"
+    "phrase-basic": "よく使う表現・基礎", "phrase-daily": "よく使う表現・日常", "phrase-biz": "よく使う表現・ビジネス",
+    "phrase-basic2": "よく使う表現・基礎（第2弾）", "phrase-daily2": "よく使う表現・日常（第2弾）",
+    "phrase-biz2": "よく使う表現・ビジネス（第2弾）",
+    "phrase-react": "よく使う表現・あいづち", "phrase-online": "よく使う表現・オンライン会議"
   };
   // 以前からのキー（形式は変えない）
   var KEY_SETTINGS = "englishRsvp.settings.v1";
@@ -1482,8 +1485,13 @@
     ],
     phrase: [
       { v: "phrase-basic", t: "基礎", sub: "pick up／run into／Hang on a second. など" },
+      { v: "phrase-basic2", t: "基礎（第2弾）", sub: "look after／give 人 a hand／I've got this. など" },
       { v: "phrase-daily", t: "日常", sub: "That makes sense.／sleep on it／My bad. など" },
-      { v: "phrase-biz", t: "ビジネス", sub: "walk through／touch base／circle back など" }
+      { v: "phrase-daily2", t: "日常（第2弾）", sub: "call it a day／It's on me.／I'm beat. など" },
+      { v: "phrase-biz", t: "ビジネス", sub: "walk through／touch base／circle back など" },
+      { v: "phrase-biz2", t: "ビジネス（第2弾）", sub: "fill 人 in／hold off／be on track など" },
+      { v: "phrase-react", t: "あいづち・リアクション", sub: "Fair enough.／Tell me about it.／No way! など" },
+      { v: "phrase-online", t: "オンライン会議・チャット", sub: "You're on mute.／a hard stop／ping 人 など" }
     ]
   };
   var pickerTab = "short";
