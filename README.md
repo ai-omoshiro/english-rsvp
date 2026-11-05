@@ -6,9 +6,12 @@
 I like  →  私は好きです  →  basketball.  →  バスケットボールを  →  （全文と自然な訳）
 ```
 
+**すぐに使う：https://ai-omoshiro.github.io/english-rsvp/** （無料・登録不要・スマホ対応）
+
 - 外部ライブラリ・ネット接続・APIキーは使いません。オフラインで動きます。
-- `index.html` をダブルクリックで開くだけで使えます（`file://` で動作）。
+- `index.html` をダブルクリックで開くだけで使えます（`file://` で動作）。パソコンなら、このリポジトリを「Code → Download ZIP」でダウンロードし、展開したフォルダの `index.html` を開けば、ネット接続なしでも使えます（ZIP は必ず展開してから開いてください）。
 - パソコンとスマホ（iPhone の Safari など）の両方に対応しています。
+- 例文・物語・単語帳は AI（Claude）の支援を受けて作成しています。不自然な点や誤りに気づいたら、[note（ai_omoshiro）](https://note.com/ai_omoshiro)のコメント欄で教えてください。
 
 ## ファイル構成
 
@@ -17,6 +20,8 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | `index.html` | 画面 |
 | `style.css` | 見た目（ダークモード対応） |
 | `app.js` | 再生・操作・保存の処理 |
+| `LICENSE`・`LICENSE-CONTENT.md` | ライセンス（プログラムは MIT、文章と画像は CC BY 4.0） |
+| `og-image.png`・`apple-touch-icon.png`・`favicon-32.png` | リンクカードの画像とアイコン |
 | `sentences.js` | 例文データ（短文90文：基礎14・日常会話14・ビジネス12・上級30・ビジネス上級20。よく使う表現60文：基礎20・日常20・ビジネス20。ストーリー16話・211文：オリジナル3話・名作7話・ショートショート6話） |
 | `words.js` | 単語帳データ（19の場面・418語） |
 
@@ -381,3 +386,27 @@ I went to the station / to meet my friend / yesterday. || 私は行きました 
 - レベル：上級。1文20〜35語。関係詞の重なり、分詞構文、倒置、仮定法、挿入句のどれかを必ず含める
 - 文の数：【例：10文】
 ```
+
+## データとプライバシー
+
+- 設定・苦手マーク・学習記録・追加した文は、使っている端末のブラウザ（`localStorage`）の中だけに保存されます。このツールが外部に送信することはありません。アクセス解析や広告も使っていません。
+- 読み上げはブラウザに入っている音声（Web Speech API）を使います。ブラウザによっては（Chrome の「Google」の声など）、読み上げる英文がブラウザの提供元のサーバーで処理されることがあります。
+- Web版は GitHub Pages で配信しています。ページの配信にともなう記録は GitHub が管理しています。
+
+## ライセンス
+
+自由に使ってかまいません。
+
+- **プログラム**（`index.html`・`style.css`・`app.js`）：[MIT ライセンス](LICENSE)
+- **例文・物語・単語帳などの文章と画像**（`sentences.js`・`words.js`・画像ファイル）：[CC BY 4.0](LICENSE-CONTENT.md)。次のようなクレジットを書けば、転載・改変・商用利用もできます。
+
+```
+出典：English RSVP（ai-omoshiro） https://ai-omoshiro.github.io/english-rsvp/
+ライセンス：CC BY 4.0
+```
+
+名作ストーリーは、著作権の切れた作品をもとに、このツールのために新しく書き直したものです。
+
+## お問い合わせ
+
+ご意見・ご感想・誤りの報告は、[note（ai_omoshiro）](https://note.com/ai_omoshiro)のコメント欄へどうぞ。

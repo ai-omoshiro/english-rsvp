@@ -733,6 +733,14 @@ textarea {
 .pick-item.all .pick-title::before { content: "▶ "; font-size: .8em; color: var(--muted); }
 .pick-empty { color: var(--muted); font-size: .9rem; margin: 16px 0; }
 
+/* このツールについて */
+.about { font-size: .92rem; line-height: 1.7; }
+.about p { margin: 12px 0; }
+.about ul { margin: 6px 0 4px; padding-left: 1.3em; }
+.about li { margin: 4px 0; }
+.about a { color: var(--accent); }
+.about code { font-size: .85em; background: var(--surface-2); padding: 1px 4px; border-radius: 4px; }
+
 /* ---------- small screens ---------- */
 @media (max-width: 430px) {
   .title { display: none; }
