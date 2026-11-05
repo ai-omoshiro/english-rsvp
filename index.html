@@ -190,6 +190,12 @@
         </div>
       </div>
 
+      <h3>今日のスタート</h3>
+      <label class="check"><input type="checkbox" id="startScreenCheck"> 開いたとき（しばらく離れて戻ったときも）に「今日のスタート」を出す</label>
+      <div class="btn-row">
+        <button type="button" class="btn" id="startOpenBtn">今日のスタートを開く</button>
+      </div>
+
       <h3>キーボード操作</h3>
       <ul class="keys">
         <li><kbd>Space</kbd> 再生／一時停止</li>
@@ -258,6 +264,23 @@
 </div>
 
 <!-- 教材を選ぶ -->
+<!-- 今日のスタート（開いたときに出す入口） -->
+<div class="sheet" id="startSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="startTitle">
+    <div class="sheet-head">
+      <h2 id="startTitle">今日のスタート</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body">
+      <p class="start-greet" id="startGreet"></p>
+      <div class="start-phrase" id="startPhrase" hidden></div>
+      <div class="pick-list" id="startList"></div>
+      <p class="note">この画面は「設定」の「今日のスタート」で出さないようにできます。</p>
+    </div>
+  </div>
+</div>
+
 <div class="sheet" id="pickerSheet" hidden>
   <div class="sheet-backdrop" data-close></div>
   <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">

@@ -48,7 +48,8 @@
     freeMax: 6,
     freeFull: true,
     storyFlow: true,     // ストーリーでは文末の全文表示を挟まずに続けて読む
-    cardReverse: false   // 単語帳を日→英（日本語を見て英語を思い出す）で出す
+    cardReverse: false,  // 単語帳を日→英（日本語を見て英語を思い出す）で出す
+    startScreen: true    // 開いたときに「今日のスタート」を出す
   };
 
   function load(key, fallback) {
@@ -1111,6 +1112,7 @@
     $("weakOnlyBtn").setAttribute("aria-pressed", String(settings.weakOnly));
     $("shuffleBtn").disabled = freeActive || isStoryLevel();
     $("storyFlowCheck").checked = settings.storyFlow;
+    $("startScreenCheck").checked = settings.startScreen;
     var cardContext = !freeActive && ((current && current.card) || isWordLevel(settings.level));
     $("reverseBtn").hidden = !cardContext;
     $("reverseBtn").setAttribute("aria-pressed", String(settings.cardReverse));
@@ -1466,6 +1468,12 @@
     else { updateMeta(); updateControls(); }
   });
 
+  $("startScreenCheck").addEventListener("change", function (e) {
+    settings.startScreen = e.target.checked;
+    saveSettings();
+  });
+  $("startOpenBtn").addEventListener("click", function () { openStart(); });
+
   $("storyFlowCheck").addEventListener("change", function (e) {
     settings.storyFlow = e.target.checked;
     saveSettings();
@@ -1731,6 +1739,154 @@
     if (!document.hidden) updateStats(); // 日付が変わっていたら表示を更新
   });
 
+
+  // ---------------------------------------------------------------
+  // 今日のスタート（開いたときに出す入口。毎回同じ文から始まらないようにする）
+  // ---------------------------------------------------------------
+  var startSheet = $("startSheet");
+  var startActions = {};
+
+  // 日付から決まる数（同じ日なら同じ「おすすめ」になる）
+  function dayHash(salt) {
+    var s = dateKey(new Date()) + "|" + salt, h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; }
+    return h;
+  }
+  // おすすめ・おまかせの候補（種類ごと）
+  function materialPool() {
+    var pool = { story: [], phrase: [], words: [], short: [] };
+    STORIES.forEach(function (st) {
+      pool.story.push({ level: "story:" + st.key, title: st.titleJa, sub: "ストーリー・" + st.group + "・" + st.title });
+    });
+    PICKER.phrase.forEach(function (it) {
+      pool.phrase.push({ level: it.v, title: levelLabel(it.v), sub: it.sub });
+    });
+    SCENES.forEach(function (sc) {
+      pool.words.push({ level: "words:" + sc.key, title: "単語帳・" + (sc.emoji ? sc.emoji + " " : "") + sc.title, sub: sc.desc });
+    });
+    PICKER.short.forEach(function (it) {
+      if (!it.all && it.v !== "custom") pool.short.push({ level: it.v, title: "例文・" + it.t, sub: it.sub });
+    });
+    Object.keys(pool).forEach(function (k) {
+      pool[k] = pool[k].filter(function (m) { return countFor(m.level) > 0; });
+    });
+    return pool;
+  }
+  function dailyPick(pool) {
+    // ストーリー → 表現 → 単語帳 の順に日替わりで種類を変える
+    var kinds = ["story", "phrase", "words"].filter(function (k) { return pool[k].length; });
+    if (!kinds.length) return null;
+    var list = pool[kinds[dayHash("kind") % kinds.length]];
+    var m = list[dayHash("pick") % list.length];
+    if (m.level === settings.level && list.length > 1) m = list[(dayHash("pick") + 1) % list.length];
+    return m;
+  }
+  function randomPick(pool) {
+    var all = [].concat(pool.story, pool.phrase, pool.words, pool.short).filter(function (m) { return m.level !== settings.level; });
+    return all.length ? all[Math.floor(Math.random() * all.length)] : null;
+  }
+  function dailyPhrase() {
+    var list = sentences.filter(function (s) { return !s.custom && s.note && s.level.indexOf("phrase-") === 0; });
+    return list.length ? list[dayHash("phrase") % list.length] : null;
+  }
+
+  function startItem(action, tag, title, sub, level) {
+    var b = el("button", "pick-item start-item");
+    b.type = "button";
+    b.dataset.start = action;
+    b.appendChild(el("span", "start-tag", tag));
+    var txt = el("span", "pick-text");
+    txt.appendChild(el("span", "pick-title", title));
+    if (sub) txt.appendChild(el("span", "pick-sub", sub));
+    b.appendChild(txt);
+    if (level) b.appendChild(el("span", "pick-count", countFor(level) + (isWordLevel(level) ? "語" : "文")));
+    return b;
+  }
+
+  function renderStart() {
+    var h = new Date().getHours();
+    var hello = h >= 4 && h < 11 ? "おはようございます" : h >= 11 && h < 17 ? "こんにちは" : "こんばんは";
+    var done = todayCount() + todayCards(), streak = streakDays(), msg;
+    if (done > 0) msg = "今日はもう " + todayCount() + "文・" + todayCards() + "語。いい調子です";
+    else if (streak > 0) msg = "連続 " + streak + "日。今日で " + (streak + 1) + "日目にしましょう";
+    else msg = "今日の1本を選んで、さっそく始めましょう";
+    var greet = $("startGreet");
+    greet.textContent = hello;
+    greet.appendChild(el("small", "", msg));
+
+    var ph = dailyPhrase(), box = $("startPhrase");
+    box.textContent = "";
+    box.hidden = !ph;
+    if (ph) {
+      box.appendChild(el("div", "start-phrase-label", "今日のひとこと"));
+      box.appendChild(el("p", "start-phrase-en", ph.en.join(" ")));
+      box.appendChild(el("p", "start-phrase-ja", ph.natural));
+      box.appendChild(el("p", "start-phrase-note", ph.note));
+    }
+
+    var list = $("startList"), pool = materialPool();
+    list.textContent = "";
+    startActions = {};
+    var last = !freeActive && settings.lastId && byId[settings.lastId];
+    if (last && countFor(settings.level) > 0) {
+      var en = last.en.join(" ");
+      if (en.length > 48) en = en.slice(0, 46) + "…";
+      startActions.resume = { level: settings.level, weakOnly: settings.weakOnly };
+      list.appendChild(startItem("resume", "▶ 続きから", buttonLabel(settings.level) + (settings.weakOnly ? "（苦手だけ）" : ""), en, settings.level));
+    }
+    var daily = dailyPick(pool);
+    if (daily) {
+      startActions.daily = { level: daily.level };
+      list.appendChild(startItem("daily", "✨ 今日のおすすめ", daily.title, daily.sub, daily.level));
+    }
+    var rnd = randomPick(pool);
+    if (rnd) {
+      startActions.random = { level: rnd.level };
+      list.appendChild(startItem("random", "🎲 おまかせ", "何が出るかはお楽しみ", "例文・表現・ストーリー・単語帳から1つ選びます"));
+    }
+    if (!freeActive && !settings.weakOnly) {
+      var nWeak = sentences.filter(function (s) { return weak.has(s.id) && matchesLevel(s, settings.level); }).length;
+      if (nWeak > 0) {
+        startActions.weak = { level: settings.level, weakOnly: true };
+        list.appendChild(startItem("weak", "★ 苦手の復習", buttonLabel(settings.level) + "の苦手", nWeak + (isWordLevel(settings.level) ? "語" : "文") + "を復習します"));
+      }
+    }
+    list.appendChild(startItem("picker", "☰ 自分で選ぶ", "教材を選ぶ", "例文・表現・ストーリー・単語帳の一覧を開きます"));
+  }
+
+  function openStart() {
+    renderStart();
+    openSheet(startSheet);
+  }
+
+  $("startList").addEventListener("click", function (e) {
+    var b = e.target.closest("[data-start]");
+    if (!b) return;
+    var action = b.dataset.start;
+    if (action === "picker") {
+      closeSheet();
+      $("levelBtn").click();
+      return;
+    }
+    var a = startActions[action];
+    if (!a) return;
+    closeSheet();
+    var changed = freeActive || a.level !== settings.level || !!a.weakOnly !== settings.weakOnly;
+    settings.level = a.level;
+    settings.weakOnly = !!a.weakOnly;
+    if (changed) rebuildAndRestart();
+    play(); // 選んだらすぐ始める
+  });
+
+  // ホーム画面のアプリは閉じずに残っていることが多いので、しばらく離れて戻ったときにも出す
+  var hiddenAt = 0;
+  var START_AGAIN_MS = 30 * 60 * 1000;
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) { hiddenAt = Date.now(); return; }
+    if (settings.startScreen && hiddenAt && Date.now() - hiddenAt > START_AGAIN_MS && !openSheetEl && !freeActive) openStart();
+    hiddenAt = 0;
+  });
+
   // ---------------------------------------------------------------
   // 起動
   // ---------------------------------------------------------------
@@ -1742,6 +1898,7 @@
   updateControls();
   updateCustomCount();
   updateStats();
+  if (settings.startScreen) openStart();
 
   // 動作確認用（コンソールから参照できるように）
   window.EnglishRSVP = {
