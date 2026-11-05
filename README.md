@@ -22,7 +22,7 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | `app.js` | 再生・操作・保存の処理 |
 | `LICENSE`・`LICENSE-CONTENT.md` | ライセンス（プログラムは MIT、文章と画像は CC BY 4.0） |
 | `og-image.png`・`apple-touch-icon.png`・`favicon-32.png` | リンクカードの画像とアイコン |
-| `sentences.js` | 例文データ（短文90文：基礎14・日常会話14・ビジネス12・上級30・ビジネス上級20。よく使う表現160文：基礎・日常・ビジネス 各20（第2弾も各20）・あいづち20・オンライン会議20。ストーリー16話・211文：オリジナル3話・名作7話・ショートショート6話） |
+| `sentences.js` | 例文データ（短文90文：基礎14・日常会話14・ビジネス12・上級30・ビジネス上級20。よく使う表現240文：12セット×20文。ストーリー24話・319文：オリジナル3話・名作12話・ショートショート9話） |
 | `words.js` | 単語帳データ（29の場面・638語） |
 
 ### レベル
@@ -47,7 +47,11 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | よく使う表現・基礎（第2弾） | 20 | `look after`（世話をする）、`give 人 a hand`（手を貸す）、`I've got this.`（任せて）、`make it`（都合をつけて行ける）、`Is this seat taken?`（この席空いてますか）、`I'm good.`（結構です） |
 | よく使う表現・日常（第2弾） | 20 | `call it a day`（切り上げる）、`It's on me.`（おごるよ）、`Don't get me wrong.`（誤解しないで）、`a close call`（危機一髪）、`I'm beat.`（くたくた）、`keep 人 posted`（随時知らせる） |
 | よく使う表現・ビジネス（第2弾） | 20 | `fill 人 in`（経緯を伝える）、`It's not my call.`（私の判断ではない）、`cut corners`（手を抜く）、`hold off`（保留する）、`run the numbers`（試算する）、`be on track`（順調だ） |
+| よく使う表現・気持ち | 20 | `be over the moon`（大喜び）、`be stressed out`（ストレスでまいっている）、`get on 人's nerves`（イライラさせる）、`be worried sick`（心配でたまらない）、`I'm so jealous!`（うらやましい） |
+| よく使う表現・雑談 | 20 | `What have you been up to?`（最近どうしてた？）、`How do you know the host?`（主催者とはどういう知り合い？）、`Small world!`（世間は狭いね）、`Speaking of 〜`（〜といえば）、`I should get going.`（そろそろ行かなきゃ） |
 | よく使う表現・あいづち | 20 | `Fair enough.`（それもそうだ）、`Tell me about it.`（ほんとそれ）、`No way!`（うそでしょ）、`I know, right?`（だよね）、`Lucky you!`（いいなあ）、`Gotcha.`（了解） |
+| よく使う表現・イディオム | 20 | `a piece of cake`（楽勝）、`under the weather`（体調がすぐれない）、`break the ice`（場をなごませる）、`once in a blue moon`（ごくまれに）、`Break a leg!`（がんばって） |
+| よく使う表現・旅行とお店 | 20 | `Can I get 〜?`（〜をください）、`I'll take it.`（これにします）、`Is breakfast included?`（朝食は付いていますか）、`Keep the change.`（おつりはどうぞ）、`you're in my seat`（私の席です） |
 | よく使う表現・オンライン会議 | 20 | `You're on mute.`（ミュートになってます）、`You're breaking up.`（音声が途切れてます）、`drop the link in the chat`（チャットにリンクを貼る）、`a hard stop`（延長できない終了時刻）、`ping 人`（軽く連絡する）、`hop off`（抜ける） |
 
 - 「全レベル」にも含まれます。
@@ -65,17 +69,22 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 
 #### 名作ストーリー（難易度別）
 
-著作権の切れた有名な物語を、**日常でそのまま使えるやさしい英語に書き直したもの** です。原文の古い言い回しは使わず、`make fun of`（からかう）、`take a nap`（昼寝する）、`get caught in`（〜に捕まる）、`can't stop -ing`（〜せずにいられない）、`on one's way home`（帰る途中で）、`ask ... to ~`（…に〜するよう頼む）など、会話や文章でよく使う表現を多く入れています。話の筋は原作に沿っていますが、細かいところは短くしたり変えたりしています（「幸福な王子」は結末を簡単にしています）。
+著作権の切れた有名な物語を、**日常でそのまま使えるやさしい英語に書き直したもの** です。原文の古い言い回しは使わず、`make fun of`（からかう）、`take a nap`（昼寝する）、`get caught in`（〜に捕まる）、`can't stop -ing`（〜せずにいられない）、`on one's way home`（帰る途中で）、`ask ... to ~`（…に〜するよう頼む）など、会話や文章でよく使う表現を多く入れています。話の筋は原作に沿っていますが、細かいところは短くしたり変えたりしています（「幸福な王子」は結末を簡単にし、「小人の靴屋」「最後の一葉」なども細部を短くしています）。
 
 | 難易度 | 題名 | 文の数 | 原作 |
 | --- | --- | --- | --- |
 | 初級 | The Tortoise and the Hare（ウサギとカメ） | 10 | イソップ寓話 |
 | 初級 | The Boy Who Cried Wolf（オオカミ少年） | 10 | イソップ寓話 |
 | 初級 | The Lion and the Mouse（ライオンとネズミ） | 10 | イソップ寓話 |
+| 初級 | The North Wind and the Sun（北風と太陽） | 10 | イソップ寓話 |
 | 中級 | The Ugly Duckling（みにくいアヒルの子） | 14 | アンデルセン（1843年発表、1875年没） |
 | 中級 | The Selfish Giant（わがままな大男） | 14 | オスカー・ワイルド（1888年発表、1900年没） |
+| 中級 | The Emperor's New Clothes（裸の王様） | 14 | アンデルセン（1837年発表、1875年没） |
+| 中級 | The Elves and the Shoemaker（小人の靴屋） | 14 | グリム童話（1812年発表。グリム兄弟は1859年・1863年没） |
 | 中上級 | The Gift of the Magi（賢者の贈り物） | 16 | O・ヘンリー（1905年発表、1910年没） |
 | 中上級 | The Happy Prince（幸福な王子） | 16 | オスカー・ワイルド（1888年発表、1900年没） |
+| 中上級 | The Necklace（首飾り） | 16 | モーパッサン（1884年発表、1893年没） |
+| 中上級 | The Last Leaf（最後の一葉） | 16 | O・ヘンリー（1907年発表、1910年没） |
 
 - どの作品も作者の没後100年以上たっていて、著作権は切れています。英文と日本語はこのツールのために新しく書いたもので、既存の翻訳や再話本は使っていません。
 - 「教材を選ぶ」画面の「ストーリー」タブでは「名作・初級」のように難易度ごとにまとまっていて、各見出しの「まとめて読む」を選ぶとその難易度の話を続けて読めます。
@@ -88,10 +97,13 @@ I like  →  私は好きです  →  basketball.  →  バスケットボール
 | --- | --- | --- | --- | --- |
 | 初級 | The Honest App（正直アプリ） | 11 | 人が本当は何を言いたいのかを教えてくれるアプリ | `That's an interesting idea.`／`Let's have dinner sometime.`／`I'm fine. Don't worry about it.`（社交辞令の言い回し） |
 | 初級 | The Perfect Robot（完璧なロボット） | 12 | 家事も仕事もこなす完璧なロボットを買った男 | `instead of going himself`／`without taking a break`／`take care of` |
+| 初級 | The Translator（翻訳イヤホン） | 11 | どんな言葉でもその場で訳せるイヤホンと、飼い猫 | `in real time`／`ask for directions`／`wonder if ~`／`twice as much as ~` |
 | 中級 | The Time Machine Sale（タイムマシン特売） | 13 | 9割引き・1回限りのタイムマシン | `on his way home`／`refuse a job offer`／`I'd better ~`／`do the opposite of` |
 | 中級 | The Inspection（惑星の査定） | 12 | 音もなく現れた巨大な宇宙船と、クリップボードを持った宇宙人 | `not knowing whether to ~`／`too busy to ~`／`as quietly as it had come` |
+| 中級 | The Time Bank（時間銀行） | 13 | いらない時間を預けておける銀行 | `deposit`／`withdraw`／`from then on`／`before he knew it`／`can't wait to ~` |
 | 中上級 | The Interview（面接） | 14 | AI のうそ発見器を使う就職面接 | `Why do you want to work for us?`／`What is your greatest weakness?`／`I'm not very good at ~`（面接の定番表現） |
 | 中上級 | The AI That Never Said No（ノーと言わないAI） | 14 | 何でも賛成してくれる会議用 AI を入れた社長 | `be tired of`／`in seconds`／`fall by half`／`demand an explanation`／`replace A with B` |
+| 中上級 | The Stand-In（代理出席） | 14 | 社員の代わりに会議に出る AI アバター | `on one's behalf`／`it wasn't long before ~`／`freed from ~`／`for ~ only` |
 
 ### 単語帳（フラッシュカード）
 

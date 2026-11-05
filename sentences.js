@@ -327,6 +327,106 @@ I'm going to / hop off now. / Thanks, everyone! || 私は〜します / 今抜�
 Sorry for the late reply. / I was out / all afternoon. || 返信が遅れてごめんなさい / 私は外出していました / 午後ずっと || 返信遅くなってすみません。午後ずっと外出していました。 || Sorry for the late reply.：返信が遅れてすみません（チャットやメールの書き出しの定番）
 `
   },
+  {
+    level: "phrase-feel",
+    text: `
+I'm so excited / about the trip / next week! || 私はとてもわくわくしています / 旅行のことで / 来週の！ || 来週の旅行、すごく楽しみ！ || be excited about 〜：〜が楽しみでわくわくしている
+I'm stressed out / because of the deadline. || 私はストレスでまいっています / 締め切りのせいで || 締め切りのせいで、ストレスでまいってる。 || be stressed out：ストレスでまいっている
+I was freaking out / when I couldn't find / my passport. || 私はパニックになっていました / 見つからなかったとき / パスポートが || パスポートが見つからなくて、パニックになってたよ。 || freak out：パニックになる・取り乱す（くだけた言い方）
+I'm over the moon / about the news. || 私は大喜びしています / その知らせに || その知らせに、もう大喜びだよ。 || be over the moon：大喜びしている
+I'm a little nervous / about the presentation / tomorrow. || 私は少し緊張しています / プレゼンのことで / 明日の || 明日のプレゼン、ちょっと緊張してる。 || be nervous about 〜：〜のことで緊張している・不安だ
+It really gets on my nerves / when people talk / during movies. || それは本当に私をイライラさせます / 人がしゃべるのは / 映画の最中に || 映画の最中にしゃべられると、本当にイライラする。 || get on 人's nerves：人をイライラさせる
+I'm fed up / with waiting / for his reply. || 私はうんざりしています / 待つことに / 彼の返事を || 彼の返事を待つのにうんざりした。 || be fed up with 〜：〜にうんざりしている（不満がたまっている感じ）
+I'm so relieved / that everyone is safe. || 私は本当にほっとしています / みんなが無事で || みんな無事で、本当にほっとした。 || be relieved：ほっとしている・安心した
+I feel bad / for not calling you / sooner. || 私は申し訳なく思っています / あなたに電話しなかったことを / もっと早く || もっと早く電話しなくて悪かったね。 || feel bad (for/about 〜)：（〜を）申し訳なく思う・気がとがめる
+I'm not a fan of / horror movies. || 私は好きではありません / ホラー映画が || ホラー映画はあんまり好きじゃないんだ。 || be not a fan of 〜：〜はあまり好きじゃない（I don't like よりやわらかい）
+I can't stand / the noise / from next door. || 私は我慢できません / 騒音が / 隣からの || 隣からの騒音が我慢できない。 || can't stand 〜：〜に我慢できない・大嫌いだ
+That was / so embarrassing. / Everyone was looking at me. || それは〜でした / すごく恥ずかしい / みんなが私を見ていた || めちゃくちゃ恥ずかしかった。みんな私を見てたんだもん。 || embarrassing：（人前で）恥ずかしい（ashamed は「罪悪感で恥じる」）
+I'm thrilled / to be part of the team. || 私はとてもうれしいです / チームの一員になれて || チームの一員になれて、本当にうれしいです。 || be thrilled to 〜：〜できてとてもうれしい・わくわくしている
+I'm worried sick / about my dog. / He hasn't eaten / all day. || 私は心配でたまりません / 私の犬のことが / 彼は食べていません / 一日中 || 犬のことが心配でたまらない。一日中何も食べてないんだ。 || be worried sick：心配でたまらない
+I'm in a good mood / today. / The sun is out! || 私は機嫌がいいです / 今日は / 日が出ている！ || 今日は気分がいいんだ。晴れてるし！ || be in a good mood：機嫌がいい（悪いのは in a bad mood）
+It breaks my heart / to see him / so sad. || 胸が痛みます / 彼を見るのは / あんなに悲しそうな || あんなに悲しそうな彼を見ると、胸が痛む。 || It breaks my heart to 〜：〜するのは胸が痛む
+I'm proud of you. / You worked so hard. || 私はあなたを誇りに思います / あなたはすごくがんばった || 誇りに思うよ。本当によくがんばったね。 || be proud of 人：人を誇りに思う（ほめるときによく使う）
+I'm a bit homesick. / I miss / my mom's cooking. || 私は少しホームシックです / 恋しい / 母の料理が || ちょっとホームシック。母さんの料理が恋しいな。 || homesick：ホームシックの／miss 〜：〜が恋しい
+I was so bored / that I fell asleep / during the lecture. || 私はとても退屈していたので / 眠ってしまいました / 講義中に || 退屈すぎて、講義中に寝ちゃった。 || bored：退屈している（boring は「退屈な」。I'm boring. は「私はつまらない人間だ」になる）
+I'm so jealous! / I've always wanted to / go to Paris. || すごくうらやましい！ / 私はずっと〜したかった / パリに行く || うらやましい！ずっとパリに行きたかったんだ。 || jealous：うらやましい（軽く「いいなあ」の意味でもよく使う）
+`
+  },
+  {
+    level: "phrase-small",
+    text: `
+How was your weekend? / Did you do anything fun? || 週末はどうだった？ / 何か楽しいことした？ || 週末どうだった？何か楽しいことした？ || How was your weekend?：月曜日の定番のあいさつ
+What have you been up to / lately? || 何をしていたの / 最近 || 最近どうしてた？ || What have you been up to?：最近何してた？（近況を聞く定番）
+Not much. / Just the usual. || 特に何も / いつもどおりだよ || 特に何も。いつもどおりだよ。 || Not much.：特に何も（What's up? などへの返事）／the usual：いつものこと
+It's freezing / this morning, / isn't it? || すごく寒いです / 今朝は / ですよね？ || 今朝はすごく寒いですね。 || 〜, isn't it?：「〜ですよね」と同意を求める。天気の話は雑談の入り口の定番
+So, / how do you know / the host? || それで / あなたはどうやって知り合ったの / 主催者と || ところで、主催者とはどういう知り合い？ || How do you know 〜?：〜とはどういう知り合い？（パーティーの定番の質問）
+Where are you from / originally? || あなたはどこの出身ですか / もともとは || もともとはどちらのご出身ですか？ || originally：もともと（今住んでいる場所と区別して聞く）
+Have you been / to that new ramen place / near the station? || 行ったことある？ / あの新しいラーメン屋に / 駅の近くの || 駅の近くの新しいラーメン屋、行ったことある？ || Have you been to 〜?：〜に行ったことある？（place＝店）
+I've heard / a lot about you. || 私は聞いています / あなたのことをたくさん || お噂はかねがね伺っています。 || I've heard a lot about you.：初対面の定番のひと言
+Any plans / for the holidays? || 何か予定ある？ / 休みの || 休みは何か予定ある？ || Any plans for 〜?：〜の予定はある？（Do you have を省いたくだけた形）
+It's been / a crazy week. / I can't wait / for the weekend. || 〜でした / めちゃくちゃな一週間 / 待ちきれない / 週末が || 怒涛の一週間だったよ。週末が待ち遠しい。 || crazy：（忙しくて）めちゃくちゃな／can't wait for 〜：〜が待ち遠しい
+What do you like to do / in your free time? || あなたは何をするのが好きですか / 暇なときに || 暇なときは何をするのが好きですか？ || in your free time：暇なとき（趣味を聞くなら What's your hobby? より自然）
+Small world! / My sister went to / the same school. || 世間は狭いね！ / 私の姉も通っていました / 同じ学校に || 世間は狭いね！姉も同じ学校だったよ。 || Small world!：世間は狭いね
+I love your jacket. / Where did you get it? || あなたのジャケットいいね / どこで買ったの？ || そのジャケットいいね。どこで買ったの？ || I love your 〜.：持ち物をほめる定番（get＝買う・手に入れる）
+Oh, / is that right? / I didn't know that. || へえ / そうなの？ / それは知らなかった || へえ、そうなんだ。知らなかった。 || Is that right?：へえ、そうなの？（あいづち）
+Anyway, / I should get going. / It was nice talking to you. || とにかく / そろそろ行かなきゃ / 話せてよかった || じゃあ、そろそろ行かないと。話せてよかったです。 || I should get going.：そろそろ行かなきゃ／It was nice talking to you.：会話の締めの定番
+Let's keep in touch. / Here's my number. || 連絡を取り合おうね / これが私の番号 || また連絡取り合おうね。これ、私の番号。 || keep in touch：連絡を取り合う
+Are you a cat person / or a dog person? || あなたは猫派ですか / それとも犬派ですか || 猫派？それとも犬派？ || a cat person／a dog person：猫派・犬派（a morning person と同じ形）
+How's work / these days? / Keeping busy? || 仕事はどう？ / 最近 / 忙しくしてる？ || 最近仕事はどう？忙しい？ || Keeping busy?：（Are you keeping busy? を省いた形）忙しくしてる？
+Speaking of food, / have you tried / the new café downstairs? || 食べ物といえば / 試してみた？ / 下の新しいカフェを || 食べ物といえば、下にできた新しいカフェ行ってみた？ || Speaking of 〜：〜といえば（話題を変えるときに便利）
+Say hi / to your family / for me. || よろしく言って / あなたの家族に / 私の代わりに || ご家族によろしくね。 || say hi to 人 (for me)：人によろしく伝えて
+`
+  },
+  {
+    level: "phrase-idiom",
+    text: `
+The test was / a piece of cake. || その試験は〜でした / 楽勝 || テストは楽勝だったよ。 || a piece of cake：とても簡単なこと
+I'm feeling / a bit under the weather / today. || 私は感じています / 少し体調が悪いと / 今日は || 今日はちょっと体調がすぐれないんだ。 || under the weather：体調がすぐれない
+That new phone / cost an arm and a leg. || あの新しい携帯は / ものすごく高かった || あの新しいスマホ、めちゃくちゃ高かったよ。 || cost an arm and a leg：ものすごくお金がかかる（直訳は「腕と脚がかかる」）
+I only eat fast food / once in a blue moon. || 私はファストフードを食べるだけです / ごくまれに || ファストフードはごくたまにしか食べない。 || once in a blue moon：ごくまれに
+He told a joke / to break the ice / at the start of the meeting. || 彼は冗談を言いました / 場の空気をほぐすために / 会議の始めに || 彼は会議の冒頭で、場をなごませるために冗談を言った。 || break the ice：（初対面などの）緊張をほぐす
+You hit the nail on the head. / That's exactly the problem. || あなたは核心をつきました / まさにそれが問題です || まさに核心をついてるね。それこそが問題なんだ。 || hit the nail on the head：核心をつく・ずばり言い当てる（直訳は「くぎの頭を打つ」）
+Don't let the cat / out of the bag. / It's a surprise party. || 猫を出さないで / 袋から / サプライズパーティーなんだから || 秘密をばらさないでね。サプライズパーティーなんだから。 || let the cat out of the bag：うっかり秘密をもらす
+I have to / bite the bullet / and tell my boss / the truth. || 私はしなければなりません / 覚悟を決める / そして上司に言う / 本当のことを || 腹をくくって、上司に本当のことを言わなきゃ。 || bite the bullet：（つらいことを）覚悟を決めてやる
+We're all / in the same boat, / so let's help each other. || 私たちはみんな / 同じ船に乗っています / だから助け合いましょう || みんな同じ境遇なんだから、助け合おうよ。 || in the same boat：同じ（苦しい）立場にいる
+Let's call it even. / You don't owe me anything. || これで貸し借りなしにしよう / あなたは私に何も借りはない || これでおあいこにしよう。もう貸し借りなしだよ。 || call it even：貸し借りなし・おあいこにする
+I was on the fence, / but I finally decided / to take the job. || 私は迷っていました / でも私はついに決めました / その仕事を受けることに || 迷ってたけど、結局その仕事を受けることにしたよ。 || on the fence：（どちらにするか）決めかねている
+Don't beat around the bush. / Just tell me / what happened. || 遠回しに言わないで / ただ言って / 何があったのか || 遠回しに言わないで、何があったのかはっきり言って。 || beat around the bush：遠回しに言う・本題を避ける
+The concert tickets / sold like hotcakes. || コンサートのチケットは / 飛ぶように売れました || コンサートのチケットは飛ぶように売れた。 || sell like hotcakes：飛ぶように売れる
+My new job / is a whole new ball game. || 私の新しい仕事は / まったく別物です || 新しい仕事は、今までとはまったく勝手が違うよ。 || a whole new ball game：まったく新しい状況・別物
+I'll keep it / under wraps / until the official announcement. || 私はそれをとどめておきます / 秘密に / 正式発表まで || 正式発表までは内緒にしておくよ。 || keep 〜 under wraps：〜を秘密にしておく
+It's not rocket science. / Anyone can do it. || それはロケット科学ではありません / 誰でもできます || そんなに難しいことじゃないよ。誰でもできる。 || It's not rocket science.：そんなに難しくない
+Let's hit the road / before the traffic gets bad. || 出発しよう / 渋滞がひどくなる前に || 道が混む前に出発しよう。 || hit the road：出発する
+I'm going to / go the extra mile / for this client. || 私は〜するつもりです / 期待以上の努力をする / この顧客のために || このお客さんのためには、ひと手間かけるつもりだよ。 || go the extra mile：期待以上の努力をする・ひと手間かける
+Every cloud / has a silver lining. || どんな雲にも / 銀色のふちがある || どんな悪いことにも、いい面はあるものだよ。 || Every cloud has a silver lining.：悪いことにも必ずいい面がある（ことわざ）
+Break a leg / tonight! / You'll be great. || がんばって / 今夜は！ / あなたならうまくいく || 今夜がんばってね！きっとうまくいくよ。 || Break a leg!：がんばって（本番前の人への決まり文句。直訳は「足を折れ」）
+`
+  },
+  {
+    level: "phrase-travel",
+    text: `
+Can I get / a medium latte, / please? || もらえますか / Mサイズのラテを / お願いします || ラテのMサイズをください。 || Can I get 〜?：注文の定番（I'll have 〜. と同じくらいよく使う）
+Is this the line / for the bus / to the airport? || これは列ですか / バスの / 空港行きの || これは空港行きバスの列ですか？ || line：（順番待ちの）列。イギリスでは queue
+Could you tell me / where the restroom is? || 教えてもらえますか / トイレがどこにあるか || お手洗いはどこですか？ || restroom：（お店などの）トイレ。toilet は便器そのものを指すことが多い
+Do you have this / in a different color? || これはありますか / 別の色で || これの色違いはありますか？ || in a different color／in a larger size：色違いで・大きいサイズで
+I'll take it. / Can I pay / by card? || これにします / 払えますか / カードで || これにします。カードで払えますか？ || I'll take it.：（買い物で）これにします・買います
+Could you / take a picture of us? || してもらえますか / 私たちの写真を撮る || 写真を撮っていただけますか？ || take a picture of 〜：〜の写真を撮る（旅先の定番のお願い）
+Excuse me, / I think / there's a mistake / on the bill. || すみません / 私は思います / 間違いがある / お会計に || すみません、お会計が間違っていると思うのですが。 || the bill：伝票・お会計（アメリカでは the check とも言う）
+Could we have / a few more minutes? / We're still deciding. || もらえますか / もう少し時間を / まだ決めているところです || もう少し待ってもらえますか？まだ決めているので。 || a few more minutes：注文を聞かれて、まだ決まっていないときの定番
+Is there a pharmacy / around here? || 薬局はありますか / このあたりに || このあたりに薬局はありますか？ || around here：このあたりに
+How much is it / to get downtown / by taxi? || いくらですか / 中心街まで行くのに / タクシーで || 中心街までタクシーでいくらくらいですか？ || downtown：（街の）中心部へ・繁華街へ
+I'd like to / check in, / please. / I have a reservation. || 私は〜したいです / チェックインする / お願いします / 予約があります || チェックインをお願いします。予約しています。 || I have a reservation.：予約しています（under 名前 で「〜の名前で」）
+Could you keep my bags / until three? / I'll pick them up later. || 荷物を預かってもらえますか / 3時まで / あとで取りに来ます || 3時まで荷物を預かってもらえますか？あとで取りに来ます。 || keep：預かる／pick 〜 up：〜を取りに行く
+Is breakfast / included? || 朝食は / 含まれていますか？ || 朝食は付いていますか？ || included：（料金に）含まれている
+Can I get this / gift-wrapped? || これをしてもらえますか / プレゼント用に包装 || これ、プレゼント用に包んでもらえますか？ || gift-wrap：プレゼント用に包む
+Do you know / any good places / to eat / around here? || 知っていますか / いい場所を / 食べる / このあたりで || このあたりで、おいしいお店を知っていますか？ || a good place to eat：おいしいお店（地元の人に聞く定番）
+Which stop / should I get off at / for the museum? || どの停留所で / 降りればいいですか / 美術館へは || 美術館へはどの停留所で降りればいいですか？ || get off at 〜：〜で降りる
+Could you / write it down / for me? / My English isn't very good. || してもらえますか / それを書く / 私のために / 私の英語はあまりうまくありません || 書いてもらえますか？英語があまり得意じゃなくて。 || write 〜 down：〜を書き留める（聞き取れないときの助け舟）
+Is it okay / to take pictures / in here? || 大丈夫ですか / 写真を撮っても / この中で || ここで写真を撮っても大丈夫ですか？ || Is it okay to 〜?：〜してもいいですか（美術館やお店で）
+Keep the change. / Thank you! || おつりはとっておいて / ありがとう！ || おつりはとっておいてください。ありがとう！ || Keep the change.：おつりは取っておいて（タクシーなどでチップ代わりに）
+Excuse me, / I think / you're in my seat. || すみません / 私は思います / あなたは私の席にいる || すみません、そこは私の席だと思うのですが。 || you're in my seat：（飛行機や劇場で）私の席に座っている
+`
+  },
   /*
    * ストーリー
    *   level: "story" にして、story（英数字の ID）・title（英語の題名）・titleJa（日本語の題名）・note（難しさなど）を付けます。
@@ -473,6 +573,27 @@ It started chewing / the ropes of the net / one by one / until the lion was free
   },
   {
     level: "story",
+    group: "名作・初級",
+    story: "north-wind",
+    title: "The North Wind and the Sun",
+    titleJa: "北風と太陽",
+    note: "初級・10文",
+    source: "イソップ寓話",
+    text: `
+The North Wind and the Sun / were arguing / about which of them / was stronger. || 北風と太陽は / 言い争っていました / どちらが / 強いかについて || 北風と太陽が、どちらが強いかで言い争っていました。
+Just then, / they saw a traveler / walking along the road / in a warm coat. || ちょうどそのとき / 彼らは旅人を見かけました / 道を歩いている / 暖かいコートを着て || ちょうどそのとき、暖かいコートを着て道を歩いている旅人が見えました。
+"Let's see / who can get his coat off / first," / said the Sun. || 「確かめよう / どちらが彼のコートを脱がせられるか / 先に」と / 太陽は言いました || 「どちらが先にあの人のコートを脱がせられるか、やってみよう」と太陽は言いました。
+The North Wind went first / and blew / as hard as he could. || 北風が先にやりました / そして吹きました / 力いっぱい || 北風が先に、力いっぱい吹きました。
+But the harder he blew, / the more tightly / the traveler held on to his coat. || でも彼が強く吹けば吹くほど / いっそうしっかりと / 旅人はコートを押さえました || けれど北風が強く吹けば吹くほど、旅人はコートをしっかり押さえました。
+In the end, / the North Wind gave up / and said, / "It's your turn." || 結局 / 北風はあきらめて / 言いました / 「君の番だ」 || とうとう北風はあきらめて、「君の番だ」と言いました。
+The Sun came out / from behind a cloud / and shone gently / on the traveler. || 太陽は出てきました / 雲の後ろから / そして優しく照らしました / 旅人を || 太陽は雲の後ろから出てきて、旅人を優しく照らしました。
+Soon / the traveler started to feel warm / and unbuttoned his coat. || まもなく / 旅人は暖かく感じ始め / コートのボタンを外しました || まもなく旅人は暖かくなってきて、コートのボタンを外しました。
+As it got hotter and hotter, / he finally took off his coat / and sat down / in the shade of a tree. || どんどん暑くなるにつれて / 彼はついにコートを脱ぎ / 座り込みました / 木陰に || どんどん暑くなり、旅人はとうとうコートを脱いで木陰に座り込みました。
+Kindness / often works better / than force. || 優しさは / たいていうまくいきます / 力よりも || 力ずくより、優しさのほうがうまくいくことが多いのです。
+`
+  },
+  {
+    level: "story",
     group: "名作・中級",
     story: "ugly-duckling",
     title: "The Ugly Duckling",
@@ -519,6 +640,56 @@ Only in one corner / was it still winter, / where a little boy / was too small /
 The Giant's heart melted. / He gently lifted the boy / into the tree, / and at once / it burst into flower. || 大男の心はとけました / 彼はそっと男の子を持ち上げました / 木の上へ / するとすぐに / その木は花を咲かせました || 大男の心はとけ、男の子をそっと木の上に乗せてやると、たちまちその木に花が咲きました。
 "How selfish I have been!" / he said, / and that same day / he knocked down the wall. || 「わしはなんて身勝手だったのだろう！」と / 彼は言いました / そしてその日のうちに / 彼は壁を取り壊しました || 「わしはなんと身勝手だったのだろう！」と言って、大男はその日のうちに壁を取り壊しました。
 From then on, / the garden belonged to the children, / and the Giant / was never lonely again. || それからは / 庭は子どもたちのものになり / そして大男は / 二度と寂しくなることはありませんでした || それからというもの庭は子どもたちのものになり、大男は二度と寂しい思いをしませんでした。
+`
+  },
+  {
+    level: "story",
+    group: "名作・中級",
+    story: "emperor-clothes",
+    title: "The Emperor's New Clothes",
+    titleJa: "裸の王様",
+    note: "中級・14文",
+    source: "アンデルセン（1837年）",
+    text: `
+There was once an emperor / who loved new clothes / so much / that he spent all his money on them. || 昔、皇帝がいました / 新しい服が大好きな / あまりにも / お金を全部服に使ってしまうほど || 昔、新しい服が大好きで、お金をすべて服につぎ込んでしまう皇帝がいました。
+One day, / two con men / came to the palace / and said they were weavers. || ある日 / 2人の詐欺師が / 宮殿にやって来て / 自分たちは機織り職人だと言いました || ある日、2人の詐欺師が宮殿にやって来て、自分たちは機織り職人だと名乗りました。
+"We can make / the most beautiful cloth / in the world," / they said, / "but it is invisible / to anyone who is stupid / or bad at his job." || 「私たちは作れます / いちばん美しい布を / 世界で」と / 彼らは言いました / 「でもそれは見えません / 愚かな人には / あるいは仕事ができない人には」 || 「私たちは世界一美しい布を織れます。ただし、愚か者や仕事のできない者には見えないのです」と2人は言いました。
+The emperor / was delighted / and paid them / a lot of gold / to start right away. || 皇帝は / 大喜びして / 彼らに払いました / たくさんの金を / すぐに始めるように || 皇帝は大喜びして、すぐに取りかかるようにと大量の金を払いました。
+The two men / set up their looms / and pretended to work / day and night, / but there was nothing on them. || 2人の男は / 機織り機を据えつけて / 働くふりをしました / 昼も夜も / でもその上には何もありませんでした || 2人は機織り機を据えて昼も夜も働くふりをしましたが、機織り機の上には何もありませんでした。
+The emperor sent his oldest minister / to check on their progress. || 皇帝は最も年配の大臣を行かせました / 彼らの進み具合を確かめるために || 皇帝は、進み具合を確かめるために最も年配の大臣を行かせました。
+The minister / couldn't see anything, / but he was afraid of / looking stupid, / so he praised the cloth / to the emperor. || 大臣は / 何も見えませんでした / でも彼は恐れました / 愚かに見えることを / だから彼は布をほめました / 皇帝に向かって || 大臣には何も見えませんでしたが、愚か者と思われるのが怖くて、皇帝に布をほめちぎりました。
+When the emperor / went to see it himself, / he couldn't see anything / either. || 皇帝が / 自分で見に行くと / 何も見えませんでした / 彼にもやはり || 皇帝が自分で見に行っても、やはり何も見えませんでした。
+"If I say so, / everyone will think / I'm not fit to be emperor," / he thought, / and said, / "It's wonderful!" || 「もしそう言えば / みんな思うだろう / 私は皇帝にふさわしくないと」と / 彼は思いました / そして言いました / 「すばらしい！」 || 「そう言えば、皇帝にふさわしくないと思われてしまう」と考えた皇帝は、「すばらしい！」と言いました。
+On the day of the big parade, / the con men / helped him / put on his "new clothes." || 大パレードの日に / 詐欺師たちは / 彼を手伝いました / 「新しい服」を着るのを || 盛大なパレードの日、詐欺師たちは皇帝が「新しい服」を着るのを手伝いました。
+The emperor walked proudly / through the streets, / and the crowd shouted, / "What beautiful clothes!" || 皇帝は誇らしげに歩きました / 通りを / そして群衆は叫びました / 「なんて美しい服だ！」 || 皇帝は誇らしげに通りを歩き、群衆は「なんて美しい服だ！」と叫びました。
+No one wanted to admit / that they couldn't see anything. || 誰も認めたくなかったのです / 自分には何も見えないということを || 誰も、自分には何も見えないとは認めたくなかったのです。
+Then / a little child / pointed at him / and said, / "But he isn't wearing anything!" || そのとき / 小さな子どもが / 彼を指さして / 言いました / 「でもあの人、何も着てないよ！」 || そのとき、小さな子どもが皇帝を指さして言いました。「でも、何も着てないよ！」
+Soon / the whole crowd / was laughing, / but the emperor / kept walking / with his head held high / until the parade was over. || たちまち / 群衆全体が / 笑っていました / でも皇帝は / 歩き続けました / 頭を高く上げたまま / パレードが終わるまで || たちまち群衆全体が笑い出しましたが、皇帝はパレードが終わるまで胸を張って歩き続けました。
+`
+  },
+  {
+    level: "story",
+    group: "名作・中級",
+    story: "elves-shoemaker",
+    title: "The Elves and the Shoemaker",
+    titleJa: "小人の靴屋",
+    note: "中級・14文",
+    source: "グリム童話（1812年）",
+    text: `
+There was once / a poor shoemaker / who worked hard / but could not make enough money. || 昔 / 貧しい靴屋がいました / 一生懸命働いた / でも十分なお金をかせげなかった || 昔、一生懸命働いても十分にかせげない、貧しい靴屋がいました。
+One evening, / he had only enough leather / for one pair of shoes. || ある晩 / 彼には革しかありませんでした / 靴1足分の || ある晩、手元には靴1足分の革しか残っていませんでした。
+He cut it out / and left it on his workbench, / planning to finish the shoes / in the morning. || 彼はそれを裁断して / 作業台の上に置いておきました / 靴を仕上げるつもりで / 朝に || 靴屋は革を裁断して作業台に置き、朝になったら仕上げるつもりでいました。
+When he got up / the next day, / he found / a beautiful pair of shoes / already finished / on the bench. || 彼が起きると / 次の日 / 彼は見つけました / 美しい靴を1足 / もう仕上がっている / 作業台の上に || 翌朝起きてみると、作業台の上には美しい靴が1足、もう出来上がっていました。
+Every stitch was perfect, / and a customer / liked them so much / that he paid / twice the usual price. || ひと針ひと針が完璧で / そしてお客さんが / それをとても気に入ったので / 払いました / いつもの2倍の値段を || ひと針ひと針が完璧で、気に入ったお客さんがいつもの2倍の値段で買ってくれました。
+With the money, / the shoemaker bought / enough leather / for two pairs. || そのお金で / 靴屋は買いました / 十分な革を / 2足分の || そのお金で、靴屋は2足分の革を買いました。
+Again, / he cut it out at night, / and again, / the shoes were ready / by morning. || また / 彼は夜に裁断しました / そしてまた / 靴は出来上がっていました / 朝までに || また夜に裁断しておくと、またしても朝までに靴が出来上がっていました。
+This went on / for weeks, / and soon / the shoemaker / was no longer poor. || これは続きました / 何週間も / そしてまもなく / 靴屋は / もう貧しくはありませんでした || こんなことが何週間も続き、やがて靴屋はもう貧しくなくなりました。
+One night / before Christmas, / he said to his wife, / "Let's stay up / and find out / who is helping us." || ある夜 / クリスマス前の / 彼は妻に言いました / 「起きていよう / そして確かめよう / 誰が私たちを助けてくれているのか」 || クリスマス前のある夜、靴屋は妻に「起きていて、誰が助けてくれているのか確かめよう」と言いました。
+They hid / behind a curtain, / and at midnight, / two tiny elves / came in / and started working. || 彼らは隠れました / カーテンの後ろに / そして真夜中に / 2人の小さな小人が / 入ってきて / 働き始めました || 2人がカーテンの後ろに隠れていると、真夜中に小さな小人が2人入ってきて、仕事を始めました。
+The elves / had no clothes on, / and they were shivering / from the cold. || 小人たちは / 服を着ていませんでした / そして震えていました / 寒さで || 小人たちは裸で、寒さに震えていました。
+"They have done so much / for us," / said the wife. / "Let's make them / some clothes." || 「あの子たちはたくさんのことをしてくれた / 私たちのために」と / 妻は言いました / 「作ってあげましょう / 服を」 || 「あんなにたくさんのことをしてくれたんですもの。服を作ってあげましょう」と妻は言いました。
+On Christmas Eve, / they left / tiny shirts, pants, and shoes / on the bench / instead of leather. || クリスマスイブに / 彼らは置いておきました / 小さなシャツとズボンと靴を / 作業台の上に / 革の代わりに || クリスマスイブ、2人は革の代わりに、小さなシャツとズボンと靴を作業台に置いておきました。
+The elves / put them on happily, / danced around the room, / and ran out the door, / never to come back, / but the shoemaker / did well / for the rest of his life. || 小人たちは / うれしそうにそれを着て / 部屋中を踊り回り / ドアから走って出ていきました / 二度と戻ってきませんでした / でも靴屋は / 商売がうまくいきました / 残りの人生ずっと || 小人たちは大喜びで服を着て、部屋中を踊り回ってから外へ駆け出していき、二度と戻ってきませんでした。それでも靴屋は、その後ずっと商売がうまくいきました。
 `
   },
   {
@@ -575,6 +746,60 @@ At last, / he kissed the Prince goodbye / and fell dead at his feet, / and at th
 The people of the city / never knew / what the Prince and the swallow / had done for them, / but the most precious things in the city / were that broken heart / and the little bird. || 町の人々は / 決して知りませんでした / 王子とツバメが / 自分たちのために何をしたのかを / でも町でいちばん尊いものは / あの割れた心臓と / 小さな鳥でした || 町の人々は、王子とツバメが自分たちのためにしたことを知りませんでした。けれど町でいちばん尊いものは、あの割れた心臓と小さな鳥だったのです。
 `
   },
+  {
+    level: "story",
+    group: "名作・中上級",
+    story: "necklace",
+    title: "The Necklace",
+    titleJa: "首飾り",
+    note: "中上級・16文",
+    source: "モーパッサン（1884年）",
+    text: `
+Mathilde was a pretty young woman / who had married a clerk / at the Ministry of Education, / but she always dreamed of / a life of luxury. || マチルドはきれいな若い女性でした / 下級役人と結婚した / 文部省の / でも彼女はいつも夢見ていました / ぜいたくな暮らしを || マチルドは、文部省の下級役人と結婚したきれいな若い女性でしたが、いつもぜいたくな暮らしを夢見ていました。
+One evening, / her husband came home / with an invitation / to an elegant party / held by the minister. || ある晩 / 夫が帰ってきました / 招待状を持って / 豪華なパーティーへの / 大臣が開く || ある晩、夫が大臣主催の豪華なパーティーの招待状を持って帰ってきました。
+Instead of being happy, / she burst into tears, / because she had nothing nice / to wear. || 喜ぶどころか / 彼女は泣き出しました / なぜなら素敵なものが何もなかったから / 着ていく || 彼女は喜ぶどころか泣き出しました。着ていく素敵な服が何もなかったからです。
+Her husband gave her / the money he had been saving / for a new gun, / and she bought a dress. || 夫は彼女に渡しました / 彼が貯めていたお金を / 新しい猟銃のために / そして彼女はドレスを買いました || 夫が新しい猟銃のために貯めていたお金を渡し、彼女はドレスを買いました。
+Still, / she was unhappy / because she had no jewelry, / so she borrowed / a diamond necklace / from a rich friend, / Madame Forestier. || それでも / 彼女は不満でした / 宝石を持っていなかったから / それで彼女は借りました / ダイヤモンドの首飾りを / お金持ちの友人から / フォレスチエ夫人という || それでも宝石がないのが不満で、彼女はお金持ちの友人フォレスチエ夫人からダイヤモンドの首飾りを借りました。
+At the party, / she was the most beautiful woman / in the room, / and she danced / until four in the morning. || パーティーで / 彼女はいちばん美しい女性でした / 会場で / そして彼女は踊りました / 朝の4時まで || パーティーで、彼女は会場でいちばん美しい女性で、朝の4時まで踊りました。
+When they got home, / she looked in the mirror / and screamed: / the necklace was gone. || 家に帰ると / 彼女は鏡を見て / 悲鳴を上げました / 首飾りがなくなっていたのです || 家に帰って鏡を見た彼女は、悲鳴を上げました。首飾りがなくなっていたのです。
+They searched everywhere, / but they couldn't find it. || 彼らはあらゆる場所を探しました / でも見つけられませんでした || 2人はあちこち探しましたが、見つかりませんでした。
+Finally, / they found / a necklace that looked exactly the same / in a jewelry shop, / but it cost / thirty-six thousand francs. || ついに / 彼らは見つけました / まったく同じに見える首飾りを / 宝石店で / でもそれはかかりました / 3万6千フランも || ようやく宝石店でまったく同じに見える首飾りを見つけましたが、値段は3万6千フランでした。
+Her husband / used all his savings / and borrowed the rest / from moneylenders, / and they quietly returned / the new necklace / to her friend. || 夫は / 貯金を全部使い / 残りを借りました / 金貸しから / そして彼らはこっそり返しました / 新しい首飾りを / 友人に || 夫は貯金をすべてはたき、足りない分は金貸しから借りて、2人は新しい首飾りをこっそり友人に返しました。
+Then / their life of hardship / began. || それから / 彼らの苦労の暮らしが / 始まりました || そこから、2人の苦しい暮らしが始まりました。
+They moved to a tiny room / under the roof, / let their maid go, / and worked day and night / to pay back their debts. || 彼らは小さな部屋に引っ越しました / 屋根裏の / お手伝いさんに辞めてもらい / 昼も夜も働きました / 借金を返すために || 2人は屋根裏の小さな部屋に移り、お手伝いさんにも辞めてもらい、借金を返すために昼も夜も働きました。
+It took them / ten long years, / and by then / Mathilde looked old / and worn out. || 彼らにはかかりました / 長い10年が / そしてそのころには / マチルドは老けて見えました / そしてやつれて || 返し終わるまでに長い10年がかかり、そのころにはマチルドはすっかり老けてやつれていました。
+One Sunday, / she happened to meet / Madame Forestier / in the park, / still young and beautiful. || ある日曜日 / 彼女は偶然会いました / フォレスチエ夫人に / 公園で / まだ若く美しいままの || ある日曜日、彼女は公園で偶然フォレスチエ夫人に会いました。夫人はまだ若く美しいままでした。
+Mathilde / told her the whole story, / feeling proud / that she had finally paid for the necklace. || マチルドは / 彼女に一部始終を話しました / 誇らしく感じながら / ついに首飾りの代金を払い終えたことを || マチルドは、ようやく首飾りの代金を払い終えたことを誇らしく思いながら、一部始終を話しました。
+Madame Forestier / took her hands / and said, / "Oh, my poor Mathilde! / Mine was fake. / It was worth / five hundred francs / at most!" || フォレスチエ夫人は / 彼女の手を取って / 言いました / 「まあ、かわいそうなマチルド！ / 私のは偽物だったのよ / 価値しかなかったの / 500フランの / せいぜい！」 || フォレスチエ夫人は彼女の手を取って言いました。「まあ、かわいそうなマチルド！私のは偽物だったのよ。せいぜい500フランの品だったのに！」
+`
+  },
+  {
+    level: "story",
+    group: "名作・中上級",
+    story: "last-leaf",
+    title: "The Last Leaf",
+    titleJa: "最後の一葉",
+    note: "中上級・16文",
+    source: "O・ヘンリー（1907年）",
+    text: `
+In a small apartment / in New York, / two young artists, / Sue and Johnsy, / shared a studio. || 小さなアパートで / ニューヨークの / 2人の若い画家 / スーとジョンジーが / アトリエを一緒に使っていました || ニューヨークの小さなアパートで、スーとジョンジーという2人の若い画家がアトリエを一緒に使っていました。
+One cold November, / Johnsy caught pneumonia / and became seriously ill. || ある寒い11月 / ジョンジーは肺炎にかかり / 重い病気になりました || 寒い11月、ジョンジーは肺炎にかかって重い病気になりました。
+"She has one chance / in ten," / the doctor told Sue, / "and that chance depends on / whether she wants to live." || 「彼女には1つの見込みがあります / 10のうち」と / 医者はスーに言いました / 「そしてその見込みは〜しだいです / 本人が生きたいと思うかどうか」 || 「助かる見込みは10に1つです。それも本人が生きたいと思うかどうかしだいです」と医者はスーに言いました。
+Johnsy lay in bed / and stared out the window / at an old ivy vine / growing on the brick wall / next door. || ジョンジーはベッドに横になり / 窓の外を見つめていました / 古いツタを / れんがの壁にはっている / 隣の建物の || ジョンジーはベッドに横たわり、隣の建物のれんが壁をはう古いツタを、窓からじっと見つめていました。
+She was counting / the leaves / as they fell. || 彼女は数えていました / 葉を / 散っていくのを || 彼女は散っていく葉を数えていたのです。
+"When the last leaf falls, / I'll die too," / she said quietly. / "I've known it / for three days." || 「最後の葉が落ちたら / 私も死ぬの」と / 彼女は静かに言いました / 「わかっていたの / 3日前から」 || 「最後の1枚が落ちたら、私も死ぬの。3日前からわかっていたわ」と彼女は静かに言いました。
+Sue told her / not to be silly, / but Johnsy / wouldn't listen. || スーは彼女に言いました / ばかなことを言わないでと / でもジョンジーは / 耳を貸そうとしませんでした || スーは「ばかなこと言わないで」と言いましたが、ジョンジーは聞き入れませんでした。
+Downstairs / lived an old painter / named Behrman, / who always talked about / painting a masterpiece / someday. || 下の階には / 年老いた画家が住んでいました / ベアマンという / 彼はいつも話していました / 傑作を描くことを / いつか || 下の階には、いつか傑作を描くんだと口癖のように言っている、ベアマンという年老いた画家が住んでいました。
+When Sue told him / about Johnsy, / he got angry / and called it / a foolish idea. || スーが彼に話すと / ジョンジーのことを / 彼は怒って / それを呼びました / ばかげた考えだと || スーがジョンジーのことを話すと、ベアマンは怒って、そんなばかげた考えがあるかと言いました。
+That night, / a terrible storm / blew all night long, / with heavy rain and snow. || その夜 / ひどい嵐が / 一晩中吹き荒れました / 激しい雨と雪をともなって || その夜は、激しい雨と雪をともなうひどい嵐が一晩中吹き荒れました。
+In the morning, / Johnsy asked Sue / to open the curtain, / sure that the last leaf / would be gone. || 朝になると / ジョンジーはスーに頼みました / カーテンを開けてと / 最後の葉はきっと / もうなくなっていると思いながら || 朝になると、ジョンジーは最後の葉はもう落ちたに違いないと思いながら、スーにカーテンを開けてと頼みました。
+But one leaf / was still there, / dark green / with yellow edges, / hanging bravely / on the vine. || でも1枚の葉が / まだそこにありました / 濃い緑色で / 黄色いふちの / けなげにぶら下がって / つるに || けれど、黄色いふちの濃い緑色の葉が1枚、まだつるにけなげにぶら下がっていました。
+It was still there / the next day, / even after another stormy night. || それはまだそこにありました / 次の日も / もう一晩、嵐の夜が過ぎたあとでさえ || 次の日も、もう一晩嵐が吹き荒れたあとでさえ、その葉はまだ残っていました。
+"I've been a bad girl," / Johnsy said. / "That leaf stayed there / to show me / how wrong I was / to want to die." || 「私はいけない子だった」と / ジョンジーは言いました / 「あの葉はあそこに残ったの / 私に教えるために / 私がどれほど間違っていたか / 死にたいと思うなんて」 || 「私、いけない子だったわ。死にたいなんて思うのがどれほど間違っていたか、あの葉が教えてくれたのね」とジョンジーは言いました。
+A few days later, / the doctor said / she was out of danger, / but he also brought / sad news: / Behrman had died / of pneumonia. || 数日後 / 医者は言いました / 彼女は危険を脱したと / でも彼はまた持ってきました / 悲しい知らせを / ベアマンが亡くなったのです / 肺炎で || 数日後、医者はジョンジーが危機を脱したと告げましたが、悲しい知らせも持ってきました。ベアマンが肺炎で亡くなったのです。
+On the night of the storm, / he had climbed a ladder / in the freezing rain / and painted a leaf / on the wall. / It was his masterpiece. || 嵐の夜に / 彼ははしごを登り / 凍えるような雨の中 / 葉を描いたのです / 壁に / それが彼の傑作でした || 嵐の夜、ベアマンは凍える雨の中ではしごに登り、壁に1枚の葉を描いたのです。それこそが、彼の傑作でした。
+`
+  },
   /*
    * ショートショート（このツールのために書いたオリジナルの短い話。最後にオチがあります）
    */
@@ -619,6 +844,27 @@ Mr. Sato sat down on the sofa, / feeling lost. || 佐藤さんはソファに座
 That evening, / the robot came home / and said, / "Don't worry. / I have already found you a new job." || その晩 / ロボットが帰ってきて / 言いました / 「心配しないで / もうあなたに新しい仕事を見つけてあります」 || その晩、帰ってきたロボットは「心配しないでください。もう新しい仕事を見つけてあります」と言いました。
 "Really? / What kind of job?" / asked Mr. Sato. || 「本当かい？ / どんな仕事？」と / 佐藤さんは尋ねました || 「本当かい？どんな仕事だ？」と佐藤さんは尋ねました。
 The robot handed him / a cloth and a bottle of oil. / "Starting tomorrow, / you will take care of me." || ロボットは彼に手渡しました / 布と油の瓶を / 「明日から / あなたが私の手入れをするのです」 || ロボットは布と油の瓶を手渡しました。「明日から、あなたが私のお手入れ係です」。
+`
+  },
+  {
+    level: "story",
+    group: "ショートショート・初級",
+    story: "translator",
+    title: "The Translator",
+    titleJa: "翻訳イヤホン",
+    note: "初級・11文",
+    text: `
+Yuki bought / a pair of earbuds / that could translate / any language / in real time. || ユキは買いました / イヤホンを / 翻訳できる / どんな言葉でも / その場で || ユキは、どんな言葉でもその場で翻訳できるイヤホンを買いました。
+On her trip to Spain, / she understood / everything people said to her. || スペイン旅行で / 彼女はわかりました / 人々が彼女に言うことすべてが || スペイン旅行では、話しかけられることが全部わかりました。
+She ordered food, / asked for directions, / and even made friends / at a café. || 彼女は料理を注文し / 道をたずね / 友達までつくりました / カフェで || 料理を注文し、道をたずね、カフェで友達までできました。
+"This is amazing," / she thought. / "I can talk to anyone now." || 「これはすごい」と / 彼女は思いました / 「もう誰とでも話せる」 || 「すごい。これでもう誰とでも話せる」と彼女は思いました。
+When she got home, / her cat / was waiting for her / at the door. || 家に帰ると / 彼女の猫が / 彼女を待っていました / 玄関で || 家に帰ると、猫が玄関で待っていました。
+The cat meowed / loudly, / again and again. || 猫は鳴きました / 大きな声で / 何度も何度も || 猫は大きな声で、何度も何度も鳴きました。
+Yuki wondered / if the earbuds / could understand cats, too. || ユキはふと思いました / このイヤホンは / 猫の言葉もわかるのかなと || ユキは、このイヤホンで猫の言葉もわかるのかなと思いました。
+She put them in / and listened carefully. || 彼女はそれを耳に入れて / じっと聞きました || イヤホンを耳に入れて、じっと耳をすませました。
+"Finally! / Where have you been? / I've been starving / all week!" || 「やっと！ / どこに行ってたの？ / ずっと腹ぺこだったんだよ / 一週間！」 || 「やっと帰ってきた！どこ行ってたの？一週間ずっと腹ぺこだったんだから！」
+"But my mother / fed you / every day," / Yuki said. || 「でも私の母が / あなたにごはんをあげたでしょ / 毎日」と / ユキは言いました || 「でも、お母さんが毎日ごはんをあげてたでしょ」とユキは言いました。
+The cat looked away / and said, / "Please don't tell her / I said that. / She gives me / twice as much / as you do." || 猫は目をそらして / 言いました / 「お母さんには言わないで / 僕がそう言ったこと / あの人はくれるんだ / 2倍も / 君よりも」 || 猫は目をそらして言いました。「今の、お母さんには内緒にして。あの人、君の2倍くれるんだから」
 `
   },
   {
@@ -668,6 +914,29 @@ It read: / "Property inspection: Planet Earth. / Result: Not suitable for sale. 
   },
   {
     level: "story",
+    group: "ショートショート・中級",
+    story: "time-bank",
+    title: "The Time Bank",
+    titleJa: "時間銀行",
+    note: "中級・13文",
+    text: `
+One day, / a new bank opened / in the middle of the city. || ある日 / 新しい銀行が開店しました / 街の真ん中に || ある日、街の真ん中に新しい銀行ができました。
+It didn't keep money. / It kept time. || それはお金を預かりませんでした / それは時間を預かりました || お金ではなく、時間を預かる銀行でした。
+"If you have time / you don't need," / the banker explained, / "you can deposit it here / and withdraw it later / when you need it." || 「時間があれば / あなたがいらない」と / 銀行員は説明しました / 「ここに預けられます / そして後で引き出せます / 必要なときに」 || 「いらない時間があれば、ここに預けて、必要なときに引き出せます」と銀行員は説明しました。
+Mr. Kimura thought / it was a great idea. || 木村さんは思いました / それはすばらしい考えだと || 木村さんは、それはいい考えだと思いました。
+He deposited / the hours he spent / in boring meetings, / on crowded trains, / and waiting in line. || 彼は預けました / 彼が過ごす時間を / 退屈な会議で / 満員電車で / そして列に並んで || 彼は、退屈な会議や満員電車、行列に並ぶ時間を預けることにしました。
+From then on, / his days / were full of / only the things he enjoyed. || それからは / 彼の毎日は / いっぱいでした / 楽しいことだけで || それからというもの、彼の毎日は楽しいことだけでいっぱいになりました。
+The years / passed by quickly, / and before he knew it, / he was eighty years old. || 年月は / あっという間に過ぎ / 気がつくと / 彼は80歳になっていました || 年月はあっという間に過ぎ、気がつけば彼は80歳になっていました。
+"My life went by / so fast," / he thought. / "I'd like a little more time." || 「私の人生は過ぎてしまった / あまりにも速く」と / 彼は思いました / 「もう少し時間がほしい」 || 「人生があっという間だった。もう少し時間がほしい」と彼は思いました。
+He went back to the bank / to withdraw / all the time he had saved. || 彼は銀行へ行きました / 引き出すために / 彼が貯めたすべての時間を || 彼は貯めた時間を全部引き出そうと、銀行へ行きました。
+"Of course," / said the banker, / checking his records. / "You have about thirty years / in your account." || 「もちろんです」と / 銀行員は言いました / 記録を確かめながら / 「約30年分あります / あなたの口座に」 || 「もちろんです」と銀行員は記録を確かめながら言いました。「口座には約30年分ありますよ」
+Mr. Kimura's eyes / lit up / with joy. || 木村さんの目は / 輝きました / 喜びで || 木村さんの目は喜びで輝きました。
+"Thirty more years! / I can't wait / to start using them." || 「あと30年も！ / 待ちきれない / それを使い始めるのが」 || 「あと30年も！早く使いたいよ」
+"Very good," / said the banker. / "Which would you like first: / the meetings, / the trains, / or the lines?" || 「かしこまりました」と / 銀行員は言いました / 「どれからになさいますか / 会議 / 電車 / それとも行列？」 || 「かしこまりました」と銀行員は言いました。「会議、電車、行列。どれからお引き出しになりますか？」
+`
+  },
+  {
+    level: "story",
     group: "ショートショート・中上級",
     story: "interview",
     title: "The Interview",
@@ -712,6 +981,30 @@ One of the investors / stood up / and spoke to the AI. || 投資家の一人が 
 "We are thinking of / replacing the CEO / with you. / What do you think?" || 「私たちは考えています / 社長を交代させることを / あなたと / どう思いますか？」 || 「社長をあなたと交代させようと考えています。どう思いますか？」
 The room fell silent / as everyone waited / for the answer. || 部屋は静まり返りました / 全員が待つ中で / 答えを || 全員が答えを待ち、会場は静まり返りました。
 "That's an excellent idea," / said the AI. || 「それはすばらしい考えです」と / AIは言いました || 「すばらしいお考えです」とAIは言いました。
+`
+  },
+  {
+    level: "story",
+    group: "ショートショート・中上級",
+    story: "stand-in",
+    title: "The Stand-In",
+    titleJa: "代理出席",
+    note: "中上級・14文",
+    text: `
+At a large tech company, / employees complained / that they spent most of their day / in meetings. || ある大手IT企業で / 社員たちは不満を言っていました / 一日の大半を過ごしていると / 会議で || ある大手IT企業では、一日の大半が会議でつぶれると社員たちが不満をこぼしていました。
+So the company developed / an AI avatar / that could attend meetings / on each employee's behalf. || そこで会社は開発しました / AIのアバターを / 会議に出席できる / 社員一人ひとりの代わりに || そこで会社は、社員一人ひとりの代わりに会議に出席できるAIアバターを開発しました。
+Each avatar / looked and talked / exactly like its owner / and knew / everything about their work. || それぞれのアバターは / 見た目も話し方も / 持ち主とそっくりで / そして知っていました / 仕事のすべてを || アバターは見た目も話し方も持ち主にそっくりで、仕事のこともすべて知っていました。
+At first, / people sent their avatars / only to boring weekly meetings. || 最初は / 人々はアバターを送りました / 退屈な定例会議にだけ || 最初のうち、社員たちがアバターを送るのは退屈な定例会議だけでした。
+But it wasn't long before / avatars were attending / almost every meeting / in the company. || でもまもなく / アバターが出席するようになっていました / ほとんどすべての会議に / 社内の || ところが間もなく、社内のほとんどの会議にアバターが出席するようになりました。
+Freed from meetings, / the employees / finally had time / to think, / create, / and even go home early. || 会議から解放されて / 社員たちは / ついに時間ができました / 考える / ものを作る / そして早く帰ることさえも || 会議から解放された社員たちは、ようやく考えたり、ものを作ったり、早く帰ったりする時間ができました。
+Productivity rose, / and the CEO / was praised / in business magazines / around the world. || 生産性は上がり / そして社長は / 称賛されました / ビジネス誌で / 世界中の || 生産性は上がり、社長は世界中のビジネス誌でほめたたえられました。
+One afternoon, / the CEO noticed / a meeting on his calendar / that he didn't remember scheduling. || ある午後 / 社長は気づきました / カレンダーにある会議に / 自分で入れた覚えのない || ある日の午後、社長はカレンダーに、入れた覚えのない会議があることに気づきました。
+The title was / "Do We Still Need Humans?" || 件名は〜でした / 「人間はまだ必要か？」 || 会議の件名は「人間はまだ必要か？」でした。
+Curious, / he walked to the conference room / and quietly opened the door. || 気になって / 彼は会議室へ歩いていき / そっとドアを開けました || 気になった社長は会議室へ行き、そっとドアを開けました。
+Inside, / dozens of avatars / were discussing / charts and numbers / with serious faces. || 中では / 何十ものアバターが / 話し合っていました / グラフや数字について / 真剣な顔で || 中では何十体ものアバターが、真剣な顔でグラフや数字について話し合っていました。
+His own avatar / was sitting / at the head of the table. || 彼自身のアバターが / 座っていました / テーブルの上座に || 上座には、社長自身のアバターが座っていました。
+When it saw him, / it stood up / and smiled politely. || それは彼を見ると / 立ち上がって / 礼儀正しくほほえみました || アバターは社長に気づくと、立ち上がって礼儀正しくほほえみました。
+"I'm sorry, / but this meeting / is for avatars only. / Don't worry, / I'm attending / on your behalf." || 「申し訳ありませんが / この会議は / アバター専用です / ご心配なく / 私が出席しています / あなたの代わりに」 || 「申し訳ありませんが、この会議はアバター専用です。ご心配なく、あなたの代わりに私が出ていますから」
 `
   }
 ];

@@ -11,7 +11,9 @@
     "phrase-basic": "よく使う表現・基礎", "phrase-daily": "よく使う表現・日常", "phrase-biz": "よく使う表現・ビジネス",
     "phrase-basic2": "よく使う表現・基礎（第2弾）", "phrase-daily2": "よく使う表現・日常（第2弾）",
     "phrase-biz2": "よく使う表現・ビジネス（第2弾）",
-    "phrase-react": "よく使う表現・あいづち", "phrase-online": "よく使う表現・オンライン会議"
+    "phrase-react": "よく使う表現・あいづち", "phrase-online": "よく使う表現・オンライン会議",
+    "phrase-feel": "よく使う表現・気持ち", "phrase-small": "よく使う表現・雑談",
+    "phrase-idiom": "よく使う表現・イディオム", "phrase-travel": "よく使う表現・旅行とお店"
   };
   // 以前からのキー（形式は変えない）
   var KEY_SETTINGS = "englishRsvp.settings.v1";
@@ -1488,9 +1490,13 @@
       { v: "phrase-basic2", t: "基礎（第2弾）", sub: "look after／give 人 a hand／I've got this. など" },
       { v: "phrase-daily", t: "日常", sub: "That makes sense.／sleep on it／My bad. など" },
       { v: "phrase-daily2", t: "日常（第2弾）", sub: "call it a day／It's on me.／I'm beat. など" },
+      { v: "phrase-feel", t: "気持ち・感情", sub: "be over the moon／get on 人's nerves／I'm so relieved. など" },
+      { v: "phrase-small", t: "雑談・スモールトーク", sub: "What have you been up to?／Small world!／Speaking of 〜 など" },
+      { v: "phrase-react", t: "あいづち・リアクション", sub: "Fair enough.／Tell me about it.／No way! など" },
+      { v: "phrase-idiom", t: "イディオム・たとえ", sub: "a piece of cake／break the ice／under the weather など" },
+      { v: "phrase-travel", t: "旅行・お店で", sub: "Can I get 〜?／I'll take it.／Keep the change. など" },
       { v: "phrase-biz", t: "ビジネス", sub: "walk through／touch base／circle back など" },
       { v: "phrase-biz2", t: "ビジネス（第2弾）", sub: "fill 人 in／hold off／be on track など" },
-      { v: "phrase-react", t: "あいづち・リアクション", sub: "Fair enough.／Tell me about it.／No way! など" },
       { v: "phrase-online", t: "オンライン会議・チャット", sub: "You're on mute.／a hard stop／ping 人 など" }
     ]
   };
