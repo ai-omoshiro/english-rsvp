@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>English RSVP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <h1 class="title">English RSVP</h1>
+    <button type="button" class="level-btn" id="levelBtn" aria-haspopup="dialog" title="教材を選ぶ">
+      <span class="level-btn-label" id="levelBtnLabel">すべての例文</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+    <div class="topbar-actions">
+      <button type="button" class="icon-btn" id="freeBtn" aria-label="自由英文" title="自由英文（好きな英文を貼り付けて読む）">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 11h7M9 15h7M9 7h3"/></svg>
+        <span class="btn-label">文章</span>
+      </button>
+      <button type="button" class="icon-btn" id="listBtn" aria-label="文の一覧" title="文の一覧">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <span class="btn-label">一覧</span>
+      </button>
+      <button type="button" class="icon-btn" id="addBtn" aria-label="例文の追加" title="例文の追加">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        <span class="btn-label">追加</span>
+      </button>
+      <button type="button" class="icon-btn" id="settingsBtn" aria-label="設定" title="設定">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+        <span class="btn-label">設定</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="stage" id="stage" tabindex="0" aria-label="表示エリア（タップで再生／一時停止）">
+    <div class="meta">
+      <span id="levelBadge" class="badge"></span>
+      <button type="button" id="freeExitBtn" class="mini-btn" hidden>終了</button>
+      <span id="counter" class="counter"></span>
+      <span id="weakBadge" class="weak-badge" hidden>★ 苦手</span>
+      <span id="wpm" class="wpm" title="英語の表示速度（1分あたりの語数）"></span>
+    </div>
+    <div class="display" id="display" aria-live="polite"></div>
+    <div class="eval-row" id="evalRow" hidden role="group" aria-label="理解度の自己評価">
+      <button type="button" class="eval-btn ok" data-eval="ok"><kbd>1</kbd> <span class="eval-label">わかった</span></button>
+      <button type="button" class="eval-btn unsure" data-eval="unsure"><kbd>2</kbd> <span class="eval-label">あやしい</span></button>
+      <button type="button" class="eval-btn ng" data-eval="ng"><kbd>3</kbd> <span class="eval-label">わからなかった</span></button>
+    </div>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+    <div class="hint" id="hint"></div>
+  </main>
+
+  <section class="controls" aria-label="操作">
+    <div class="transport">
+      <button type="button" class="ctrl-btn" id="prevBtn" aria-label="前の文" title="前の文（←）">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M7 5h2v14H7zM20 5v14L10 12z"/></svg>
+      </button>
+      <button type="button" class="ctrl-btn play" id="playBtn" aria-label="再生" title="再生／一時停止（スペース）">
+        <svg viewBox="0 0 24 24" aria-hidden="true" id="playIcon"><path class="fill" d="M8 5v14l11-7z"/></svg>
+      </button>
+      <button type="button" class="ctrl-btn" id="nextBtn" aria-label="次の文" title="次の文（→）">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M15 5h2v14h-2zM4 5v14l10-7z"/></svg>
+      </button>
+      <button type="button" class="ctrl-btn weak" id="weakBtn" aria-label="苦手マーク" aria-pressed="false" title="苦手マーク（M）">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="star" d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></svg>
+      </button>
+    </div>
+    <div class="mode-row">
+      <div class="segmented" role="radiogroup" aria-label="表示モード" id="modeGroup">
+        <button type="button" role="radio" data-mode="alternate" title="英→日 交互">英→日</button>
+        <button type="button" role="radio" data-mode="english">英語のみ</button>
+        <button type="button" role="radio" data-mode="both">英日同時</button>
+        <button type="button" role="radio" data-mode="check">理解チェック</button>
+      </div>
+    </div>
+    <div class="toggle-row">
+      <button type="button" class="chip" id="shuffleBtn" aria-pressed="false">シャッフル</button>
+      <button type="button" class="chip" id="weakOnlyBtn" aria-pressed="false">苦手だけ再生</button>
+      <button type="button" class="chip" id="ttsBtn" aria-pressed="false">読み上げ</button>
+      <button type="button" class="chip" id="reverseBtn" aria-pressed="false" hidden title="単語帳を日本語→英語の向きで出す（R）">日→英</button>
+    </div>
+    <div class="stats" id="stats" aria-label="学習記録"></div>
+  </section>
+</div>
+
+<!-- 設定 -->
+<div class="sheet" id="settingsSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="sheet-head">
+      <h2 id="settingsTitle">設定</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body">
+      <h3>表示時間</h3>
+      <div class="field">
+        <label for="enTime">英語チャンク <output id="enTimeOut"></output></label>
+        <input type="range" id="enTime" min="0.4" max="5" step="0.1">
+      </div>
+      <div class="field">
+        <label for="jaTime">日本語チャンク <output id="jaTimeOut"></output></label>
+        <input type="range" id="jaTime" min="0.4" max="5" step="0.1">
+      </div>
+      <div class="field">
+        <label for="fullTime">文末の全文と訳 <output id="fullTimeOut"></output></label>
+        <input type="range" id="fullTime" min="1" max="12" step="0.5">
+      </div>
+      <p class="note">「英日同時」では、英語と日本語の時間を足した長さで表示します。</p>
+      <label class="check"><input type="checkbox" id="storyFlowCheck"> ストーリーでは文末の全文と訳を出さずに、続けて読む</label>
+
+      <h3>チャンクの大きさ</h3>
+      <div class="field">
+        <div class="segmented small" id="groupGroup" role="radiogroup" aria-label="チャンクの大きさ">
+          <button type="button" role="radio" data-group="1">標準</button>
+          <button type="button" role="radio" data-group="2">2つずつ</button>
+          <button type="button" role="radio" data-group="3">3つずつ</button>
+        </div>
+      </div>
+      <p class="note">隣り合うチャンクを英語・日本語とも同じ単位でつなげて表示します（例文のデータは変わりません）。</p>
+
+      <h3>だんだん速く</h3>
+      <label class="check"><input type="checkbox" id="speedUpCheck"> 1文進むごとに英語の表示時間を短くする</label>
+      <div class="field">
+        <label for="speedRate">1文ごとに短くする割合 <output id="speedRateOut"></output></label>
+        <input type="range" id="speedRate" min="1" max="10" step="1">
+      </div>
+      <div class="field">
+        <label for="speedMin">英語の表示時間の下限 <output id="speedMinOut"></output></label>
+        <input type="range" id="speedMin" min="0.2" max="2" step="0.1">
+      </div>
+      <p class="note" id="speedNow"></p>
+      <div class="btn-row">
+        <button type="button" class="btn" id="speedResetBtn">最初の速さに戻す</button>
+      </div>
+
+      <h3>読み上げ</h3>
+      <label class="check"><input type="checkbox" id="ttsCheck"> 英語チャンクを読み上げる</label>
+      <label class="check"><input type="checkbox" id="ttsFullCheck"> 文末に英文全体も読み上げる</label>
+      <div class="field">
+        <label for="voiceSelect">声</label>
+        <div class="voice-row">
+          <select id="voiceSelect"><option value="">自動</option></select>
+          <button type="button" class="btn" id="voiceTestBtn">試しに聞く</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="ttsRate">読み上げの速さ <output id="ttsRateOut"></output></label>
+        <input type="range" id="ttsRate" min="0.5" max="1.5" step="0.05">
+      </div>
+      <p class="note" id="ttsNote">読み上げ中は、読み終わるまで次のチャンクに進みません。</p>
+
+      <h3>見た目</h3>
+      <div class="field">
+        <span class="field-label">文字の大きさ</span>
+        <div class="segmented small" id="fontGroup" role="radiogroup" aria-label="文字の大きさ">
+          <button type="button" role="radio" data-font="0.85">小</button>
+          <button type="button" role="radio" data-font="1">中</button>
+          <button type="button" role="radio" data-font="1.2">大</button>
+        </div>
+      </div>
+      <div class="field">
+        <span class="field-label">テーマ</span>
+        <div class="segmented small" id="themeGroup" role="radiogroup" aria-label="テーマ">
+          <button type="button" role="radio" data-theme-value="auto">自動</button>
+          <button type="button" role="radio" data-theme-value="light">ライト</button>
+          <button type="button" role="radio" data-theme-value="dark">ダーク</button>
+        </div>
+      </div>
+
+      <h3>キーボード操作</h3>
+      <ul class="keys">
+        <li><kbd>Space</kbd> 再生／一時停止</li>
+        <li><kbd>←</kbd> <kbd>→</kbd> 前／次の文</li>
+        <li><kbd>M</kbd> 苦手マーク</li>
+        <li><kbd>R</kbd> 単語帳の向き（英→日／日→英）</li>
+        <li><kbd>1</kbd>〜<kbd>4</kbd> 表示モード（理解チェックの自己評価中は <kbd>1</kbd> わかった／<kbd>2</kbd> あやしい／<kbd>3</kbd> わからなかった）</li>
+      </ul>
+
+      <h3>データ</h3>
+      <button type="button" class="btn danger" id="clearWeakBtn">苦手マークをすべて外す</button>
+    </div>
+  </div>
+</div>
+
+<!-- 教材を選ぶ -->
+<div class="sheet" id="pickerSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="pickerTitle">
+    <div class="sheet-head">
+      <h2 id="pickerTitle">教材を選ぶ</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="picker-tabs-wrap">
+      <div class="segmented picker-tabs" id="pickerTabs" role="tablist" aria-label="教材の種類">
+        <button type="button" role="tab" data-tab="short">例文</button>
+        <button type="button" role="tab" data-tab="phrase">表現</button>
+        <button type="button" role="tab" data-tab="story">ストーリー</button>
+        <button type="button" role="tab" data-tab="words">単語帳</button>
+      </div>
+    </div>
+    <div class="sheet-body picker-body">
+      <div class="pick-list" id="pickerList" role="tabpanel"></div>
+    </div>
+  </div>
+</div>
+
+<!-- 一覧 -->
+<div class="sheet" id="listSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="listTitle">
+    <div class="sheet-head">
+      <h2 id="listTitle">文の一覧</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body">
+      <p class="note" id="listNote"></p>
+      <ol class="sentence-list" id="sentenceList"></ol>
+    </div>
+  </div>
+</div>
+
+<!-- 追加 -->
+<div class="sheet" id="addSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="addTitle">
+    <div class="sheet-head">
+      <h2 id="addTitle">例文の追加</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body">
+      <p class="note">1行に1文。<code>英語チャンク / … || 日本語チャンク / … || 自然な訳</code> の形で貼り付けてください。英語と日本語のチャンクの数は同じにします。最後に <code>|| 表現メモ</code> を足すと、意味の説明として表示されます（省略できます）。</p>
+      <textarea id="addText" rows="7" spellcheck="false" autocapitalize="off" autocomplete="off"
+        placeholder="I like / basketball || 私は好きです / バスケットボールを || 私はバスケットボールが好きです"></textarea>
+      <div class="field inline">
+        <label for="addLevel">レベル</label>
+        <select id="addLevel">
+          <option value="basic">基礎</option>
+          <option value="daily">日常会話</option>
+          <option value="business">ビジネス</option>
+          <option value="advanced">上級</option>
+          <option value="bizadv">ビジネス上級</option>
+          <option value="phrase-basic">よく使う表現・基礎</option>
+          <option value="phrase-daily">よく使う表現・日常</option>
+          <option value="phrase-biz">よく使う表現・ビジネス</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button type="button" class="btn primary" id="addSubmit">追加する</button>
+      </div>
+      <div class="add-result" id="addResult" aria-live="polite"></div>
+
+      <h3>追加した文 <span id="customCount"></span></h3>
+      <p class="note">追加した文はこのブラウザに保存されます。「一覧」から1文ずつ削除できます。</p>
+      <div class="btn-row">
+        <button type="button" class="btn" id="exportBtn">テキストで書き出す</button>
+        <button type="button" class="btn danger" id="clearCustomBtn">追加した文をすべて削除</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 自由英文 -->
+<div class="sheet" id="freeSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="freeTitle">
+    <div class="sheet-head">
+      <h2 id="freeTitle">自由英文</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body">
+      <p class="note">ニュース記事など、好きな英文を貼り付けてください。句読点・前置詞・接続詞・関係詞などを手がかりに自動でチャンクに分け、英語だけで流します（日本語訳は出ません）。</p>
+      <textarea id="freeText" rows="8" spellcheck="false" autocapitalize="off" autocomplete="off"
+        placeholder="Paste an English article here."></textarea>
+      <div class="field inline">
+        <label for="freeMax">1チャンクの語数の目安</label>
+        <select id="freeMax">
+          <option value="4">4語まで（細かめ）</option>
+          <option value="6">6語まで（標準）</option>
+          <option value="8">8語まで（大きめ）</option>
+        </select>
+      </div>
+      <label class="check"><input type="checkbox" id="freeFullCheck"> 文末に英文全体を表示する</label>
+      <div class="btn-row">
+        <button type="button" class="btn primary" id="freeStartBtn">チャンクに分けて再生</button>
+        <button type="button" class="btn" id="freePreviewBtn">分け方を確認</button>
+      </div>
+      <div class="add-result" id="freeResult" aria-live="polite"></div>
+      <ol class="free-preview" id="freePreview"></ol>
+    </div>
+  </div>
+</div>
+
+<script src="sentences.js"></script>
+<script src="words.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
