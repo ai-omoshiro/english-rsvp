@@ -1657,6 +1657,7 @@
   });
 
   $("settingsBtn").addEventListener("click", function () { openSheet(settingsSheet); });
+  $("aboutBtn").addEventListener("click", function () { openSheet($("aboutSheet")); });
   $("listBtn").addEventListener("click", function () {
     renderList();
     openSheet(listSheet);

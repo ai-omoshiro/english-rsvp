@@ -6,7 +6,25 @@
 <meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="English RSVP">
 <title>English RSVP</title>
+<meta name="description" content="英文をチャンク（意味のかたまり）ごとに表示し、英語の語順のままの日本語訳を添えて、英語を前から順に理解する練習ができる無料のツール。例文・ネイティブ表現・ストーリー・単語帳つき。登録不要・スマホ対応。">
+<meta name="theme-color" content="#f6f6f3">
+<!-- リンクカード（note や SNS に URL を貼ったときの表示） -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="English RSVP">
+<meta property="og:title" content="English RSVP — 英語を、前から読む。">
+<meta property="og:description" content="チャンクごとに「英語 → 語順どおりの日本語」を次々に表示する直読直解トレーナー。例文・ネイティブ表現・ストーリー・単語帳つき。無料・登録不要・スマホ対応。">
+<meta property="og:url" content="https://ai-omoshiro.github.io/english-rsvp/">
+<meta property="og:image" content="https://ai-omoshiro.github.io/english-rsvp/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="English RSVP：英語を、前から読む。チャンクごとに英語と語順どおりの日本語を表示">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<!-- アイコン -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -183,6 +201,58 @@
 
       <h3>データ</h3>
       <button type="button" class="btn danger" id="clearWeakBtn">苦手マークをすべて外す</button>
+
+      <h3>このツールについて</h3>
+      <button type="button" class="btn" id="aboutBtn">使い方・プライバシー・ライセンス</button>
+    </div>
+  </div>
+</div>
+
+<!-- このツールについて -->
+<div class="sheet" id="aboutSheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+    <div class="sheet-head">
+      <h2 id="aboutTitle">このツールについて</h2>
+      <button type="button" class="close-btn" data-close aria-label="閉じる">閉じる</button>
+    </div>
+    <div class="sheet-body about">
+      <p><strong>English RSVP</strong> は、英文を意味のかたまり（チャンク）ごとに画面の中央へ1つずつ表示し、英語の語順のままの日本語訳を添えて、英語を前から順に理解する（直読直解）練習をするための無料のツールです。</p>
+
+      <h3>使い方のこつ</h3>
+      <ul>
+        <li>左上のボタンで教材（例文・表現・ストーリー・単語帳）を選び、画面をタップすると再生します。</li>
+        <li>慣れてきたら「英語のみ」や「だんだん速く」で、訳なし・速めの表示に挑戦してください。</li>
+        <li>「理解チェック」で「あやしい」「わからなかった」を選んだ文には苦手マークが付きます。「苦手だけ再生」で復習できます。</li>
+        <li>iPhone で読み上げの音が出ないときは、音量と消音モードを確かめてください。</li>
+        <li>Safari の共有メニューから「ホーム画面に追加」すると、アプリのように使えます。</li>
+      </ul>
+
+      <h3>データとプライバシー</h3>
+      <ul>
+        <li>設定・苦手マーク・学習記録・追加した文は、<strong>お使いの端末のブラウザの中だけ</strong>に保存されます。このツールが外部に送信することはありません。アクセス解析や広告も使っていません。</li>
+        <li>ブラウザの履歴やサイトのデータを消すと、保存した内容も消えます。</li>
+        <li>読み上げはブラウザに入っている音声を使います。ブラウザによっては（Chrome の「Google」の声など）、読み上げる英文がブラウザの提供元のサーバーで処理されることがあります。</li>
+        <li>このページは GitHub Pages で配信しています。ページの配信にともなう記録は GitHub が管理しています。</li>
+      </ul>
+
+      <h3>例文について</h3>
+      <ul>
+        <li>例文・物語・単語帳は、AI（Claude）の支援を受けて作成しました。ネイティブスピーカーの確認は受けていません。不自然な点や誤りに気づいたら、教えていただけると助かります。</li>
+        <li>名作ストーリーは、著作権の切れた作品（イソップ寓話、アンデルセン、オスカー・ワイルド、O・ヘンリー）を、このツールのためにやさしい英語で書き直したものです。</li>
+      </ul>
+
+      <h3>ライセンス（自由に使えます）</h3>
+      <ul>
+        <li>プログラム（HTML・CSS・JavaScript）：<a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT ライセンス</a></li>
+        <li>例文・物語・単語帳などの文章：<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>（クレジット「English RSVP（ai-omoshiro）」を書けば、転載・改変・商用利用もできます）</li>
+      </ul>
+
+      <h3>お問い合わせ・ソースコード</h3>
+      <ul>
+        <li>ご意見・ご感想：<a href="https://note.com/ai_omoshiro" target="_blank" rel="noopener">note（ai_omoshiro）</a>のコメント欄へどうぞ。</li>
+        <li>ソースコード：<a href="https://github.com/ai-omoshiro/english-rsvp" target="_blank" rel="noopener">GitHub</a>。「Code → Download ZIP」で一式をダウンロードし、展開した <code>index.html</code> を開けば、パソコンでネット接続なしでも使えます。</li>
+      </ul>
     </div>
   </div>
 </div>
